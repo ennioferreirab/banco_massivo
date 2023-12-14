@@ -11,7 +11,7 @@ class Item(BaseModel):
     owner: str
     repo: str
     author: str
-
+    data_element: dict
 
 class DataExtractorCommit:
     def __init__(self, folder_path):
@@ -46,5 +46,5 @@ class DataExtractorCommit:
             url = self.get_url(data_element)
             owner, repo = self.get_owner_and_repo(url)
             author = self.get_author(data_element)
-            items.append(Item(created_at=date, url=url, owner=owner, repo=repo, author=author))
+            items.append(Item(created_at=date, url=url, owner=owner, repo=repo, author=author, data_element=data_element))
         return items
