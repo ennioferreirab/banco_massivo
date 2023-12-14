@@ -3,6 +3,7 @@ import pandas as pd
 from data_extractor_fork import DataExtractorFork
 from data_extractor_issue import DataExtractorIssue
 from data_extractor_pull import DataExtractorPull
+import requests
 
 def get_contributors(owner, repo):
     url = f'https://api.github.com/repos/{owner}/{repo}/contributors'
