@@ -1,0 +1,2445 @@
+[
+    {
+        "sha": "3b9005ea11788a4dd8b54555d5efee397cb31a24",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjNiOTAwNWVhMTE3ODhhNGRkOGI1NDU1NWQ1ZWZlZTM5N2NiMzFhMjQ=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-13T10:39:24Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-13T10:39:24Z"
+            },
+            "message": "RWKV: now faster and less params",
+            "tree": {
+                "sha": "1564c8583d7cc9c23381f14909802154e1a8fffa",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/1564c8583d7cc9c23381f14909802154e1a8fffa"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/3b9005ea11788a4dd8b54555d5efee397cb31a24",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b9005ea11788a4dd8b54555d5efee397cb31a24",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/3b9005ea11788a4dd8b54555d5efee397cb31a24",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b9005ea11788a4dd8b54555d5efee397cb31a24/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "546114c6a5e9226d334bf5a6014252649c28eb31",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/546114c6a5e9226d334bf5a6014252649c28eb31",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/546114c6a5e9226d334bf5a6014252649c28eb31"
+            }
+        ]
+    },
+    {
+        "sha": "546114c6a5e9226d334bf5a6014252649c28eb31",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjU0NjExNGM2YTVlOTIyNmQzMzRiZjVhNjAxNDI1MjY0OWMyOGViMzE=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-13T07:55:57Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-13T07:55:57Z"
+            },
+            "message": "still use layernorm for everything",
+            "tree": {
+                "sha": "de1c593684a7d44054799abfc3879705eb9842fb",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/de1c593684a7d44054799abfc3879705eb9842fb"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/546114c6a5e9226d334bf5a6014252649c28eb31",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/546114c6a5e9226d334bf5a6014252649c28eb31",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/546114c6a5e9226d334bf5a6014252649c28eb31",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/546114c6a5e9226d334bf5a6014252649c28eb31/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c68ea168b16118061b8fc06104a87d9e3648e81b",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/c68ea168b16118061b8fc06104a87d9e3648e81b",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/c68ea168b16118061b8fc06104a87d9e3648e81b"
+            }
+        ]
+    },
+    {
+        "sha": "c68ea168b16118061b8fc06104a87d9e3648e81b",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmM2OGVhMTY4YjE2MTE4MDYxYjhmYzA2MTA0YTg3ZDllMzY0OGU4MWI=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-13T06:21:50Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-13T06:21:50Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "96355933d9667b5f6f73209d0a09d382a4734a25",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/96355933d9667b5f6f73209d0a09d382a4734a25"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/c68ea168b16118061b8fc06104a87d9e3648e81b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFg9+CRBK7hj4Ov3rIwAA+aYIAAgXovBBo8nJnoQwR9N/lKOO\nwLtuwXHmu0M19qVyjnuhwFXjWO+mwBYIKqePcH33/ZDRiKcsTLIDf0zmebOC5LMU\ne2kwVFb0OXlJslJ655bK5iOF1QL6LE5G6GkwlitlKDIeE4dTEjAFuG2IRc+qii8F\nqU/KWjFdg0g9j2/xr1W0MqCI9MjQ2b/VKbUUx2dEggLhgECv9WRl/9lr0FKxEnCc\nBWGneVudiLY1vIoGd3JQifQWbUJ/Je9+2KK1zbZedhAl9hR1NwDaGATfCblCtVh+\nls4qMU5F5rJ72b2XxQoWBC64hmZxbfw94B6I+e+zbYvwrthJNcC1raCFSQWF3PQ=\n=OmES\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 96355933d9667b5f6f73209d0a09d382a4734a25\nparent 73a63e175f407825040bc4017e8260e6f2ef7e58\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628835710 +0800\ncommitter GitHub <noreply@github.com> 1628835710 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/c68ea168b16118061b8fc06104a87d9e3648e81b",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/c68ea168b16118061b8fc06104a87d9e3648e81b",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/c68ea168b16118061b8fc06104a87d9e3648e81b/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "73a63e175f407825040bc4017e8260e6f2ef7e58",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/73a63e175f407825040bc4017e8260e6f2ef7e58",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/73a63e175f407825040bc4017e8260e6f2ef7e58"
+            }
+        ]
+    },
+    {
+        "sha": "73a63e175f407825040bc4017e8260e6f2ef7e58",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjczYTYzZTE3NWY0MDc4MjUwNDBiYzQwMTdlODI2MGU2ZjJlZjdlNTg=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-13T05:56:30Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-13T05:56:30Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "2e0c894ab2a92ae278c978d0b5430ace7f1d44e0",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/2e0c894ab2a92ae278c978d0b5430ace7f1d44e0"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/73a63e175f407825040bc4017e8260e6f2ef7e58",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFgmOCRBK7hj4Ov3rIwAALoIIAB8BxjfgBXiAjoJfL7uxvvmC\nqnH9icsJwMqGwqsQTd/cNIBooWnqRaYCzn1JxRfgFH/51kh4GGdK5fUr2NtN+CE4\n+m0PJ6a3nsaMGr+Ad4XEs7K/vneYqAvTtXF0ZvulQV2yYR0KNHuom65QetjBWXbS\n4THXfztwORlkrbavOYguA4bL8pUhvgR3fDpWmZQwJprYAlwyKbZNU9Lhv1tu9LwW\nMkRLMlnf89BYvUzFy+33aO7O4jz6BbW0DHvm+HiMK/VOi0Phj2T5nvsPqelHfoHi\n0ba2N0DGxbPYmVn9ZAVDDUPW1goGoGaqm734hZAhzIVIjBPCcvBFWrD/bE/429c=\n=qRTW\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2e0c894ab2a92ae278c978d0b5430ace7f1d44e0\nparent 2df321d3f443ebf8c894c105ef26e12f2c57f6cd\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628834190 +0800\ncommitter GitHub <noreply@github.com> 1628834190 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/73a63e175f407825040bc4017e8260e6f2ef7e58",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/73a63e175f407825040bc4017e8260e6f2ef7e58",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/73a63e175f407825040bc4017e8260e6f2ef7e58/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2df321d3f443ebf8c894c105ef26e12f2c57f6cd",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/2df321d3f443ebf8c894c105ef26e12f2c57f6cd",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/2df321d3f443ebf8c894c105ef26e12f2c57f6cd"
+            }
+        ]
+    },
+    {
+        "sha": "2df321d3f443ebf8c894c105ef26e12f2c57f6cd",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjJkZjMyMWQzZjQ0M2ViZjhjODk0YzEwNWVmMjZlMTJmMmM1N2Y2Y2Q=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-13T05:56:06Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-13T05:56:06Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "3d922d47c25383674afc41b477970cd4d1e5091c",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/3d922d47c25383674afc41b477970cd4d1e5091c"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/2df321d3f443ebf8c894c105ef26e12f2c57f6cd",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFgl2CRBK7hj4Ov3rIwAAp5YIAF9s71/VED/ag5waXid2gOwg\ndHu6kRLlwebXF9I9r7lyJd82K/1rR/guwSyTeQqwYSn59dobhsma9S9tvqAerZWT\nBoFQIuaiH/72ceUzPlJaioPItjEspUzKppYCXII8WqAwCoCIYl15bmVkvkrZHyRK\n1rMrhhnGXcuGYkgMf6nJTpur02YOLiV5R66+QXNlsEEw/WsNeFT88PuDZp+kHBv8\nIefMZLEy4pFMdnD8efHb/TQpXMaAnZ/dwCefSNI7Lm5uKBx/0rhKobWHnLLjAzZM\nNqvRfW2Z5rNIItsLxV150ECbS9H1VQ5Rr8ZjfVJv04Pd04g6C5QM7ufXSnkBoVw=\n=cmlj\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3d922d47c25383674afc41b477970cd4d1e5091c\nparent 6e2ba61d95b2d8e0ee28f40a849bdc868d821226\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628834166 +0800\ncommitter GitHub <noreply@github.com> 1628834166 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/2df321d3f443ebf8c894c105ef26e12f2c57f6cd",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/2df321d3f443ebf8c894c105ef26e12f2c57f6cd",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/2df321d3f443ebf8c894c105ef26e12f2c57f6cd/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6e2ba61d95b2d8e0ee28f40a849bdc868d821226",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/6e2ba61d95b2d8e0ee28f40a849bdc868d821226",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/6e2ba61d95b2d8e0ee28f40a849bdc868d821226"
+            }
+        ]
+    },
+    {
+        "sha": "6e2ba61d95b2d8e0ee28f40a849bdc868d821226",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjZlMmJhNjFkOTViMmQ4ZTBlZTI4ZjQwYTg0OWJkYzg2OGQ4MjEyMjY=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-13T05:54:24Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-13T05:54:24Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "bd96a9b7d1105af2092093150a708c79650c780a",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/bd96a9b7d1105af2092093150a708c79650c780a"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/6e2ba61d95b2d8e0ee28f40a849bdc868d821226",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFgkQCRBK7hj4Ov3rIwAAudsIACGjKHnx2reA2a1Ls67Bx7rp\nrI/G1DYecDFGKcqk4CDcaB7i9rdr2nTRTVYBK2a6c58A9bomlu14m7L5NVRlBmRe\nfUKtW7Ws3IKuyGwECGwu/ItHk/n5fADy9CuCQNII5GaDSxE+B7OLI9ljNpIYkEOX\n+bGTq1z7CKYxTTkJYzYYrITwldYOvbbTIYajO4JqPGvj/HvcCD7NDbhjwIp2uoEt\nbdcs4pqgOzczZ9iEOwFeOys3d9gTECgD9HF64pc47Gxf9sMCfSrOjEJRX6MgyJhM\nOXpeWvaLZI9Mue32iEd/JJ4YXKpE3c8zAsiQWD42SWh/XPUqn2CpyTTiv2S1MTE=\n=ACaO\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree bd96a9b7d1105af2092093150a708c79650c780a\nparent cd9b352b453b0eb06ad5e8af7cf4fb1748c00485\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628834064 +0800\ncommitter GitHub <noreply@github.com> 1628834064 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/6e2ba61d95b2d8e0ee28f40a849bdc868d821226",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/6e2ba61d95b2d8e0ee28f40a849bdc868d821226",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/6e2ba61d95b2d8e0ee28f40a849bdc868d821226/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cd9b352b453b0eb06ad5e8af7cf4fb1748c00485",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/cd9b352b453b0eb06ad5e8af7cf4fb1748c00485",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/cd9b352b453b0eb06ad5e8af7cf4fb1748c00485"
+            }
+        ]
+    },
+    {
+        "sha": "cd9b352b453b0eb06ad5e8af7cf4fb1748c00485",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmNkOWIzNTJiNDUzYjBlYjA2YWQ1ZThhZjdjZjRmYjE3NDhjMDA0ODU=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-13T03:48:22Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-13T03:48:22Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "e6342fe26215cf9637c64626c06463c479bb46f4",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/e6342fe26215cf9637c64626c06463c479bb46f4"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/cd9b352b453b0eb06ad5e8af7cf4fb1748c00485",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFeuGCRBK7hj4Ov3rIwAAJ2gIAIVnkjiLUQZzguUiqP2D8nWo\nSha2NeSG90hZA0viSY//H57qdDLWwQbqCgM0Dyv0Ckj44BmqYamHWzTtTzuyA/gH\nWVxG+/Mu8iXVt0dTxkwXD4AsGMN4r4XCQuOXREv1jU2G8cVLdQD9UM6SmwJ5crxo\nEDQcpOFTOVH+X/yn8BQCSMfJWbPtD8CQi6JPpELzbS2IAyLid2MG7fIaQYILNIaA\nU+PiP0DLT9aYHnNFU2ordM8lIdIQUQ5hS6pSH8JoOqGvfT2PnMrPGW+9tnleIssG\nu1h5dqY69mOtVK++AtD21AyYM4CSOdNmWp+Vhn3Q23pBZphHtlk2NmFz6sybyeg=\n=SVMP\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree e6342fe26215cf9637c64626c06463c479bb46f4\nparent d2b100c2ac37465a2c67bed10a0e3a8c74586335\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628826502 +0800\ncommitter GitHub <noreply@github.com> 1628826502 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/cd9b352b453b0eb06ad5e8af7cf4fb1748c00485",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/cd9b352b453b0eb06ad5e8af7cf4fb1748c00485",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/cd9b352b453b0eb06ad5e8af7cf4fb1748c00485/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d2b100c2ac37465a2c67bed10a0e3a8c74586335",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d2b100c2ac37465a2c67bed10a0e3a8c74586335",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/d2b100c2ac37465a2c67bed10a0e3a8c74586335"
+            }
+        ]
+    },
+    {
+        "sha": "d2b100c2ac37465a2c67bed10a0e3a8c74586335",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmQyYjEwMGMyYWMzNzQ2NWEyYzY3YmVkMTBhMGUzYThjNzQ1ODYzMzU=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-13T03:46:31Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-13T03:46:31Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "329b12458b29a3620fc2f67a27e18f3a827a9c68",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/329b12458b29a3620fc2f67a27e18f3a827a9c68"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/d2b100c2ac37465a2c67bed10a0e3a8c74586335",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFesXCRBK7hj4Ov3rIwAA8e0IAKtlo3OHlWyFmJijbLQaXfld\np8Pj6zgGp7wMNvHZ1Erlp4UuYTvervH2jkFPC6UhOBSIqZNi/DqK5d1MbZRuaTO/\nGThwSIQJRUJ5BUnjtp8mb4x1XrUsjgrP8GOEazNYWTNvJsghDbiearsfZ5eBmY/c\n/2V8D9CZqgAk3NgO59eiUJLIMtT9bfJCvqZUpfB77hxDQdRkrcugEVnkTUKnRqef\nujyhVrnlvcpbXMjX+OW3sT1yOBsTy+UspOHZn+gxCDw+1mF0/vFnIR7jwCeeXkid\n8Co0r9baZdBIyHh1RgKQIyejnqPe0Z8Qh2VcS42Saawopp5XemV39gbGuYZR4r0=\n=1Muy\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 329b12458b29a3620fc2f67a27e18f3a827a9c68\nparent 8af6289d0c695f6139c80acbbc9341395c401798\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628826391 +0800\ncommitter GitHub <noreply@github.com> 1628826391 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d2b100c2ac37465a2c67bed10a0e3a8c74586335",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/d2b100c2ac37465a2c67bed10a0e3a8c74586335",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d2b100c2ac37465a2c67bed10a0e3a8c74586335/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8af6289d0c695f6139c80acbbc9341395c401798",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/8af6289d0c695f6139c80acbbc9341395c401798",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/8af6289d0c695f6139c80acbbc9341395c401798"
+            }
+        ]
+    },
+    {
+        "sha": "8af6289d0c695f6139c80acbbc9341395c401798",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjhhZjYyODlkMGM2OTVmNjEzOWM4MGFjYmJjOTM0MTM5NWM0MDE3OTg=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-12T19:07:13Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-12T19:07:13Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "78a7a6c0e9183fc46f6752e2a06b1f5a817d77bf",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/78a7a6c0e9183fc46f6752e2a06b1f5a817d77bf"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/8af6289d0c695f6139c80acbbc9341395c401798",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFXFhCRBK7hj4Ov3rIwAAM+8IAKRXAvcs3jUiVAtm+HAobXb0\nLFHNQ00KOpeqNomiPXqTKHJZbmc9RX42p0SrfZ8fbt25XoQXy3jhcy4o/CvC1LaY\niK1TiTVMse+bDqxp46a5jYgAsjYhM9E4MRt1tvXOUkv5Gk8pqOpDMAhKR9fhyWaO\nBnasedTCiMDWpIxXMRYc+6HP3cb2zegfrcEDuLfxSf3Njd5lVL9Z469EeMjZtRxw\nla+qyNPSZrp1n9+yGlbjhVe0CRhHXPHngyNxoBrCLYbgSh2FJmm3C8uLjjJUPQs8\nzJEcFYBsUqbFxxynZdnso1wXtdP89cHW5pCEiRYXW2aOBePnuulBld3Uxx8BzGE=\n=tIFH\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 78a7a6c0e9183fc46f6752e2a06b1f5a817d77bf\nparent fd098b1d2e8702a2944ea6297bd11a146f31e0c2\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628795233 +0800\ncommitter GitHub <noreply@github.com> 1628795233 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/8af6289d0c695f6139c80acbbc9341395c401798",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/8af6289d0c695f6139c80acbbc9341395c401798",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/8af6289d0c695f6139c80acbbc9341395c401798/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fd098b1d2e8702a2944ea6297bd11a146f31e0c2",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/fd098b1d2e8702a2944ea6297bd11a146f31e0c2",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/fd098b1d2e8702a2944ea6297bd11a146f31e0c2"
+            }
+        ]
+    },
+    {
+        "sha": "fd098b1d2e8702a2944ea6297bd11a146f31e0c2",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmZkMDk4YjFkMmU4NzAyYTI5NDRlYTYyOTdiZDExYTE0NmYzMWUwYzI=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T18:25:43Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T18:25:43Z"
+            },
+            "message": "small update",
+            "tree": {
+                "sha": "b13100e34e614072623b339be5143e1b063c598e",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/b13100e34e614072623b339be5143e1b063c598e"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/fd098b1d2e8702a2944ea6297bd11a146f31e0c2",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/fd098b1d2e8702a2944ea6297bd11a146f31e0c2",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/fd098b1d2e8702a2944ea6297bd11a146f31e0c2",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/fd098b1d2e8702a2944ea6297bd11a146f31e0c2/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3b01c8c3cfb7e86a10d7055caf6b5f437653bc86",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b01c8c3cfb7e86a10d7055caf6b5f437653bc86",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/3b01c8c3cfb7e86a10d7055caf6b5f437653bc86"
+            }
+        ]
+    },
+    {
+        "sha": "3b01c8c3cfb7e86a10d7055caf6b5f437653bc86",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjNiMDFjOGMzY2ZiN2U4NmExMGQ3MDU1Y2FmNmI1ZjQzNzY1M2JjODY=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-12T13:17:10Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-12T13:17:10Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "37c4f0dd8a056a7f25d7dd50efb7e66e89d72b24",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/37c4f0dd8a056a7f25d7dd50efb7e66e89d72b24"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/3b01c8c3cfb7e86a10d7055caf6b5f437653bc86",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFR9WCRBK7hj4Ov3rIwAAGwcIAC4QiGxuiE4LYV37evO4AItY\nQK3eIddmhx/og82vlCB+WRmaS6DKyK25apnBFCFD7Xn5N4bWc8isxP7izbXsX60U\nMyz4O5g1zZrqU87HNuD6B+5Z9vti03Y4dU/W8oijFj7x/F6nKmN/tH1EASvHNWBY\nc013ZseP8/hCgob79CXPr4uOLuTcn/acLP/H+beSIvG5gpDEzcUDJ56QOaKHvdgc\nqut+K4C5Iza4hdlV+IGASzYYGHRAu4e36SmJDvoUMxUxpWk8aeNXIRHMgaTtho61\nnbm9IyGQW/w2v8gFsa7Ry/arZDiTXc9ttBivo7adb2+goii5Kio/EVDMtFsa0UI=\n=XCG1\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 37c4f0dd8a056a7f25d7dd50efb7e66e89d72b24\nparent 65eda0f9151007cdb94c5dec0c6cb4508388716e\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628774230 +0800\ncommitter GitHub <noreply@github.com> 1628774230 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b01c8c3cfb7e86a10d7055caf6b5f437653bc86",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/3b01c8c3cfb7e86a10d7055caf6b5f437653bc86",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b01c8c3cfb7e86a10d7055caf6b5f437653bc86/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "65eda0f9151007cdb94c5dec0c6cb4508388716e",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/65eda0f9151007cdb94c5dec0c6cb4508388716e",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/65eda0f9151007cdb94c5dec0c6cb4508388716e"
+            }
+        ]
+    },
+    {
+        "sha": "65eda0f9151007cdb94c5dec0c6cb4508388716e",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjY1ZWRhMGY5MTUxMDA3Y2RiOTRjNWRlYzBjNmNiNDUwODM4ODcxNmU=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T13:14:17Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T13:14:17Z"
+            },
+            "message": "no message",
+            "tree": {
+                "sha": "aae38cf9907063ef7ac263d936b620f03b952eb8",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/aae38cf9907063ef7ac263d936b620f03b952eb8"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/65eda0f9151007cdb94c5dec0c6cb4508388716e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/65eda0f9151007cdb94c5dec0c6cb4508388716e",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/65eda0f9151007cdb94c5dec0c6cb4508388716e",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/65eda0f9151007cdb94c5dec0c6cb4508388716e/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3b60c5b266cb59c587e78b72d4f89d735f4fbe74",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b60c5b266cb59c587e78b72d4f89d735f4fbe74",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/3b60c5b266cb59c587e78b72d4f89d735f4fbe74"
+            }
+        ]
+    },
+    {
+        "sha": "3b60c5b266cb59c587e78b72d4f89d735f4fbe74",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjNiNjBjNWIyNjZjYjU5YzU4N2U3OGI3MmQ0Zjg5ZDczNWY0ZmJlNzQ=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T12:56:31Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T12:56:31Z"
+            },
+            "message": "add wandb, and rename variables",
+            "tree": {
+                "sha": "0d3c54ca3ccfca95b9a04555433c43c1f634274c",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/0d3c54ca3ccfca95b9a04555433c43c1f634274c"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/3b60c5b266cb59c587e78b72d4f89d735f4fbe74",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b60c5b266cb59c587e78b72d4f89d735f4fbe74",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/3b60c5b266cb59c587e78b72d4f89d735f4fbe74",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/3b60c5b266cb59c587e78b72d4f89d735f4fbe74/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "440bebff1a097d31d2017d4c2ff8421518c0a56b",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/440bebff1a097d31d2017d4c2ff8421518c0a56b",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/440bebff1a097d31d2017d4c2ff8421518c0a56b"
+            }
+        ]
+    },
+    {
+        "sha": "440bebff1a097d31d2017d4c2ff8421518c0a56b",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjQ0MGJlYmZmMWEwOTdkMzFkMjAxN2Q0YzJmZjg0MjE1MThjMGE1NmI=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T04:15:27Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-12T04:15:27Z"
+            },
+            "message": "fixed nan in large models",
+            "tree": {
+                "sha": "86153f14909daa326dfed726933e6a99aec6b0d6",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/86153f14909daa326dfed726933e6a99aec6b0d6"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/440bebff1a097d31d2017d4c2ff8421518c0a56b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/440bebff1a097d31d2017d4c2ff8421518c0a56b",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/440bebff1a097d31d2017d4c2ff8421518c0a56b",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/440bebff1a097d31d2017d4c2ff8421518c0a56b/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f80ff535956f8290ed74379972cba6d692fec04e",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/f80ff535956f8290ed74379972cba6d692fec04e",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/f80ff535956f8290ed74379972cba6d692fec04e"
+            }
+        ]
+    },
+    {
+        "sha": "f80ff535956f8290ed74379972cba6d692fec04e",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmY4MGZmNTM1OTU2ZjgyOTBlZDc0Mzc5OTcyY2JhNmQ2OTJmZWMwNGU=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-12T04:00:42Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-12T04:00:42Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "03a9c5e63ae369ea6a3521d55e6c332ad78c8726",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/03a9c5e63ae369ea6a3521d55e6c332ad78c8726"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/f80ff535956f8290ed74379972cba6d692fec04e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhFJzqCRBK7hj4Ov3rIwAAyyYIAJBtHItanu62ldqFlWp431TC\nrn6p/vSfXMWwiHc1QuIFrvPhAM10/NYJP3g9mDmRstrPjjf3WjZ/w8bjKPgX2Vo2\nFRDNSCqvOrg8IA+ikflgR9/2FOmpQmmrMyIna/5G2lCjyFTosYnvEtnwV3Oviz8f\nuRd4o2Uo049U94+3NauXWY9wePTo8F5s8CqJrrj3HcBOZPgLROd9yB5B4gEyu3R7\n08M+legaRW5yjZJi25+r9iPMb9NFntcZM+66vTPpEUz+WHlEbbOkL/FSymaH3unG\nYkiaXkaMtHsYnRtDjX6Wpwv02kpwVvByHJsPNtUCTfJIn3NNbG9INQMfQNeGvFo=\n=Qm5U\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 03a9c5e63ae369ea6a3521d55e6c332ad78c8726\nparent 62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628740842 +0800\ncommitter GitHub <noreply@github.com> 1628740842 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/f80ff535956f8290ed74379972cba6d692fec04e",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/f80ff535956f8290ed74379972cba6d692fec04e",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/f80ff535956f8290ed74379972cba6d692fec04e/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb"
+            }
+        ]
+    },
+    {
+        "sha": "62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjYyZTJjYjA2ZDY3N2FiOGZkNGM4NjVhN2M2Yjg2MGJkMTM0OWM3ZWI=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T14:11:12Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T14:11:12Z"
+            },
+            "message": "fixing nan in large models",
+            "tree": {
+                "sha": "721551286b57c72e0bb58bea0d6bf0bf86a7ad1c",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/721551286b57c72e0bb58bea0d6bf0bf86a7ad1c"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/62e2cb06d677ab8fd4c865a7c6b860bd1349c7eb/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d699a691695fc983e8eeb0748a573acbab37262e",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d699a691695fc983e8eeb0748a573acbab37262e",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/d699a691695fc983e8eeb0748a573acbab37262e"
+            }
+        ]
+    },
+    {
+        "sha": "d699a691695fc983e8eeb0748a573acbab37262e",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmQ2OTlhNjkxNjk1ZmM5ODNlOGVlYjA3NDhhNTczYWNiYWIzNzI2MmU=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T11:00:02Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T11:00:02Z"
+            },
+            "message": "misc improvements",
+            "tree": {
+                "sha": "c005c9bf1d890454970f13b67a602379a6c04d2f",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/c005c9bf1d890454970f13b67a602379a6c04d2f"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/d699a691695fc983e8eeb0748a573acbab37262e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d699a691695fc983e8eeb0748a573acbab37262e",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/d699a691695fc983e8eeb0748a573acbab37262e",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d699a691695fc983e8eeb0748a573acbab37262e/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6266f481da97a9c6ab9748630cd307c0d81d207b",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/6266f481da97a9c6ab9748630cd307c0d81d207b",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/6266f481da97a9c6ab9748630cd307c0d81d207b"
+            }
+        ]
+    },
+    {
+        "sha": "6266f481da97a9c6ab9748630cd307c0d81d207b",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjYyNjZmNDgxZGE5N2E5YzZhYjk3NDg2MzBjZDMwN2MwZDgxZDIwN2I=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T07:53:44Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T07:53:44Z"
+            },
+            "message": "minor changes",
+            "tree": {
+                "sha": "3125c1620ae70ad7aca4104358974e778d487554",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/3125c1620ae70ad7aca4104358974e778d487554"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/6266f481da97a9c6ab9748630cd307c0d81d207b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/6266f481da97a9c6ab9748630cd307c0d81d207b",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/6266f481da97a9c6ab9748630cd307c0d81d207b",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/6266f481da97a9c6ab9748630cd307c0d81d207b/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "88297e7949f5fe6e6539e1b279cc211e8528a85a",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/88297e7949f5fe6e6539e1b279cc211e8528a85a",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/88297e7949f5fe6e6539e1b279cc211e8528a85a"
+            }
+        ]
+    },
+    {
+        "sha": "88297e7949f5fe6e6539e1b279cc211e8528a85a",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1Ojg4Mjk3ZTc5NDlmNWZlNmU2NTM5ZTFiMjc5Y2MyMTFlODUyOGE4NWE=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-11T07:32:35Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-11T07:32:35Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "b1ce5a01da2bd9250b82451a384650106de3bc38",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/b1ce5a01da2bd9250b82451a384650106de3bc38"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/88297e7949f5fe6e6539e1b279cc211e8528a85a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhE30TCRBK7hj4Ov3rIwAASS0IABilGfcotbP2BksQlz9t+tsS\n132g8HHaWZhBlxJHqW6N9wQhPXhdDPldaOGy3cMb+IvdsMmZn3xJEYZfefhA40uZ\nDmgpsjIQkqiBloFCgccrYdtqklgOsAgX5PLO+6VAS1nylEMZg/WaPGvnjoh4wbho\nxmYnMw5vPfCybMb5UNKOSsTAyp6bLpyQz6vMRNhfilhFGzb4VpdDNDlrNDSAKpxy\newIII481UOXHUfn3iHxL+L+E8f81U5dHOY0w+CZvft1K9GolXzoff4SxpobJwx7x\nfl7eKzP3kLX/7si3RkT7Hk8EZxHyHSM8X/WVlYfcfXYc9CNPxnA6EdL19HtwRjw=\n=+glZ\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b1ce5a01da2bd9250b82451a384650106de3bc38\nparent 89eab46e600c5381f44b1809b27263f0444b0104\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628667155 +0800\ncommitter GitHub <noreply@github.com> 1628667155 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/88297e7949f5fe6e6539e1b279cc211e8528a85a",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/88297e7949f5fe6e6539e1b279cc211e8528a85a",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/88297e7949f5fe6e6539e1b279cc211e8528a85a/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "89eab46e600c5381f44b1809b27263f0444b0104",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/89eab46e600c5381f44b1809b27263f0444b0104",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/89eab46e600c5381f44b1809b27263f0444b0104"
+            }
+        ]
+    },
+    {
+        "sha": "89eab46e600c5381f44b1809b27263f0444b0104",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1Ojg5ZWFiNDZlNjAwYzUzODFmNDRiMTgwOWIyNzI2M2YwNDQ0YjAxMDQ=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T06:54:51Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T06:54:51Z"
+            },
+            "message": "+ info",
+            "tree": {
+                "sha": "5650c53d213b561967cd01f4f2ed4dc8a565a2cb",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/5650c53d213b561967cd01f4f2ed4dc8a565a2cb"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/89eab46e600c5381f44b1809b27263f0444b0104",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/89eab46e600c5381f44b1809b27263f0444b0104",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/89eab46e600c5381f44b1809b27263f0444b0104",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/89eab46e600c5381f44b1809b27263f0444b0104/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e9fbd9bf701811c5e7dc0481895ede72a6cb7e40",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/e9fbd9bf701811c5e7dc0481895ede72a6cb7e40",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/e9fbd9bf701811c5e7dc0481895ede72a6cb7e40"
+            }
+        ]
+    },
+    {
+        "sha": "e9fbd9bf701811c5e7dc0481895ede72a6cb7e40",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmU5ZmJkOWJmNzAxODExYzVlN2RjMDQ4MTg5NWVkZTcyYTZjYjdlNDA=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T06:39:57Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-11T06:39:57Z"
+            },
+            "message": "remove layernorm -> better RWKV",
+            "tree": {
+                "sha": "f341959bc085830e253264359f1353b4d0604bb7",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/f341959bc085830e253264359f1353b4d0604bb7"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/e9fbd9bf701811c5e7dc0481895ede72a6cb7e40",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/e9fbd9bf701811c5e7dc0481895ede72a6cb7e40",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/e9fbd9bf701811c5e7dc0481895ede72a6cb7e40",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/e9fbd9bf701811c5e7dc0481895ede72a6cb7e40/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "55405c57d03cb8055f2a6df69a0b85124b7dbec6",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/55405c57d03cb8055f2a6df69a0b85124b7dbec6",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/55405c57d03cb8055f2a6df69a0b85124b7dbec6"
+            }
+        ]
+    },
+    {
+        "sha": "55405c57d03cb8055f2a6df69a0b85124b7dbec6",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjU1NDA1YzU3ZDAzY2I4MDU1ZjJhNmRmNjlhMGI4NTEyNGI3ZGJlYzY=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-10T04:53:21Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-10T04:53:21Z"
+            },
+            "message": "better splitting of words",
+            "tree": {
+                "sha": "5184793bbbcd3dfcd72462a2479644ee9ef8aa79",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/5184793bbbcd3dfcd72462a2479644ee9ef8aa79"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/55405c57d03cb8055f2a6df69a0b85124b7dbec6",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/55405c57d03cb8055f2a6df69a0b85124b7dbec6",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/55405c57d03cb8055f2a6df69a0b85124b7dbec6",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/55405c57d03cb8055f2a6df69a0b85124b7dbec6/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "01d6972f4f0fdb3558aacdbe0a898bf44732653f",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/01d6972f4f0fdb3558aacdbe0a898bf44732653f",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/01d6972f4f0fdb3558aacdbe0a898bf44732653f"
+            }
+        ]
+    },
+    {
+        "sha": "01d6972f4f0fdb3558aacdbe0a898bf44732653f",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjAxZDY5NzJmNGYwZmRiMzU1OGFhY2RiZTBhODk4YmY0NDczMjY1M2Y=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-09T14:01:44Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-09T14:01:44Z"
+            },
+            "message": "now works for word-level LM",
+            "tree": {
+                "sha": "b03e75600ec2d352ab6befde34ba1d41274a35f8",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/b03e75600ec2d352ab6befde34ba1d41274a35f8"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/01d6972f4f0fdb3558aacdbe0a898bf44732653f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/01d6972f4f0fdb3558aacdbe0a898bf44732653f",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/01d6972f4f0fdb3558aacdbe0a898bf44732653f",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/01d6972f4f0fdb3558aacdbe0a898bf44732653f/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "64fdb610567a3d50ae6e974866ae18f0ab0769e8",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/64fdb610567a3d50ae6e974866ae18f0ab0769e8",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/64fdb610567a3d50ae6e974866ae18f0ab0769e8"
+            }
+        ]
+    },
+    {
+        "sha": "64fdb610567a3d50ae6e974866ae18f0ab0769e8",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjY0ZmRiNjEwNTY3YTNkNTBhZTZlOTc0ODY2YWUxOGYwYWIwNzY5ZTg=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-09T11:38:45Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-09T11:38:45Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "6badc2c2f7688986687b7c5518bbbc6b833dcacd",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/6badc2c2f7688986687b7c5518bbbc6b833dcacd"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/64fdb610567a3d50ae6e974866ae18f0ab0769e8",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhERPFCRBK7hj4Ov3rIwAAkzEIADMfX5CrUNUNSXw8KvdL+2JA\nIUddXaUIj6AaYckBzv7Xi90Gt4FLoqlByHtKXwtkHAS6DTziFDp5bYIVIC4TZ+gz\nA8crebz2pLPT4+8zuPVl+7irbqjrTftdsh1ybKoArfBGawJI6l37eEPCryhVPYxt\nSzg0K3kShSn3nrYKo/wsGF5dF5hLAG9IxgkA1oi5iWBJYH1aiUmwt/XzmJs6ov73\ncg695b/7G3kDF5D6HcBfMr+NADpSPfJFLQ03y1ba/EMV5YWfATo5xB6amcPDZOxl\nnxOpPiJ21ctcTxiD0Llfh4zIkvd3uPVOKVM73JhqwPAMRdUtc3DwJZHtAE2r35I=\n=AyiS\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6badc2c2f7688986687b7c5518bbbc6b833dcacd\nparent 959115a7e65dbefd9583b86e8032a94be143c15b\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628509125 +0800\ncommitter GitHub <noreply@github.com> 1628509125 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/64fdb610567a3d50ae6e974866ae18f0ab0769e8",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/64fdb610567a3d50ae6e974866ae18f0ab0769e8",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/64fdb610567a3d50ae6e974866ae18f0ab0769e8/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "959115a7e65dbefd9583b86e8032a94be143c15b",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/959115a7e65dbefd9583b86e8032a94be143c15b",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/959115a7e65dbefd9583b86e8032a94be143c15b"
+            }
+        ]
+    },
+    {
+        "sha": "959115a7e65dbefd9583b86e8032a94be143c15b",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1Ojk1OTExNWE3ZTY1ZGJlZmQ5NTgzYjg2ZTgwMzJhOTRiZTE0M2MxNWI=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-09T11:25:24Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-09T11:25:24Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "efd2c4d842585e34c656a49a52bbbdb93348e3a8",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/efd2c4d842585e34c656a49a52bbbdb93348e3a8"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/959115a7e65dbefd9583b86e8032a94be143c15b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhERCkCRBK7hj4Ov3rIwAA52UIAA8gPHprUUC4hFaSNTvaqWQm\n6EPCB5YC24InVgjz3BoVSKXydt1ibBPZe3sDdm8LgsL3r3ReKUoVPGGsYgXlM33q\n+kKCqiPhh4cYTWaddv7kfMGyRjlrnLrqmxVqYRZUGICHTR+f+KGWXN/LjekYALvQ\nS1C5rCBwjpVyO/a6PSfQ2/ehaEl6W6cNifURBsK3EFcwULvN6oVjcyWxiprx5VjM\nPqq6g0o4XPCVNJkKfxQDHUdkNW0YQ68VWynaSqQAHTsUD3eLPnPm7V/lv2Pty/IQ\n+HUlHSjxBmDETgGi7hiXb0LoJaxgGuIQlZP+sRS+feP69djElI1YO9zRi88MU9Q=\n=b0B5\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree efd2c4d842585e34c656a49a52bbbdb93348e3a8\nparent 447eae5841b483b2346c528c6c1b7f07f85fff5b\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628508324 +0800\ncommitter GitHub <noreply@github.com> 1628508324 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/959115a7e65dbefd9583b86e8032a94be143c15b",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/959115a7e65dbefd9583b86e8032a94be143c15b",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/959115a7e65dbefd9583b86e8032a94be143c15b/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "447eae5841b483b2346c528c6c1b7f07f85fff5b",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/447eae5841b483b2346c528c6c1b7f07f85fff5b",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/447eae5841b483b2346c528c6c1b7f07f85fff5b"
+            }
+        ]
+    },
+    {
+        "sha": "447eae5841b483b2346c528c6c1b7f07f85fff5b",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjQ0N2VhZTU4NDFiNDgzYjIzNDZjNTI4YzZjMWI3ZjA3Zjg1ZmZmNWI=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-09T08:51:01Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-09T08:51:01Z"
+            },
+            "message": "add MHA-plus model",
+            "tree": {
+                "sha": "73aebde296687d64c05886a5993c4e2359e88b6d",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/73aebde296687d64c05886a5993c4e2359e88b6d"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/447eae5841b483b2346c528c6c1b7f07f85fff5b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/447eae5841b483b2346c528c6c1b7f07f85fff5b",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/447eae5841b483b2346c528c6c1b7f07f85fff5b",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/447eae5841b483b2346c528c6c1b7f07f85fff5b/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bcd4adb7818d01712f30504f03aaa536295ccfef",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/bcd4adb7818d01712f30504f03aaa536295ccfef",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/bcd4adb7818d01712f30504f03aaa536295ccfef"
+            }
+        ]
+    },
+    {
+        "sha": "bcd4adb7818d01712f30504f03aaa536295ccfef",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmJjZDRhZGI3ODE4ZDAxNzEyZjMwNTA0ZjAzYWFhNTM2Mjk1Y2NmZWY=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-09T07:52:13Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-09T07:52:13Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "8ba896650a21e08e4764423caafc90b9e4bb896b",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/8ba896650a21e08e4764423caafc90b9e4bb896b"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/bcd4adb7818d01712f30504f03aaa536295ccfef",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhEN6tCRBK7hj4Ov3rIwAAdb0IAHKPY9TWoQWak9KdC1sON9KQ\nG77Aq/rIqHRWYHypweYLWGX2BInEQaj9vcxpu6qTG4tmBOkfvHpTNqgCm6XmbN9R\ngx4D75H9ROWqo2FmBfCFsmsvtXHBXU0MTZuJ9YtZ8fQf5u69tELe5U870qBtX7RH\ngrhJFDFJ4nKfTSEQj82R777PewahFrx6TE1KOD0FgtbRd5sJVxhvbWmDfIbhIE17\nSBkAIRDj8DlvMf5RuYAMJI7vBtMMB85cfzHPYWXFNKOXV7QTDICI5rRMI3xlUWGx\nXv+m8XC6kFMtIaI3dqWIA1imsQZQAvyPjOJnx90GKUM9dvdzV/er9KNsYnPCwwY=\n=Ja3r\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8ba896650a21e08e4764423caafc90b9e4bb896b\nparent 1035a7438e7fbba03a313fab6c0a18c370e22642\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628495533 +0800\ncommitter GitHub <noreply@github.com> 1628495533 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/bcd4adb7818d01712f30504f03aaa536295ccfef",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/bcd4adb7818d01712f30504f03aaa536295ccfef",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/bcd4adb7818d01712f30504f03aaa536295ccfef/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1035a7438e7fbba03a313fab6c0a18c370e22642",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/1035a7438e7fbba03a313fab6c0a18c370e22642",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/1035a7438e7fbba03a313fab6c0a18c370e22642"
+            }
+        ]
+    },
+    {
+        "sha": "1035a7438e7fbba03a313fab6c0a18c370e22642",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjEwMzVhNzQzOGU3ZmJiYTAzYTMxM2ZhYjZjMGExOGMzNzBlMjI2NDI=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-09T06:40:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-09T06:40:08Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "a098a93e60d959d60500e64eacbe16ad33f8dd53",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/a098a93e60d959d60500e64eacbe16ad33f8dd53"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/1035a7438e7fbba03a313fab6c0a18c370e22642",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhEM3ICRBK7hj4Ov3rIwAAPqIIAKf5Cz/gF1hB8lUXV4do75xy\nksmHZy2KhClvmIP3qYHx4pGaKIbTb3H5dgsZFNV/V+j29CTSxniMoVFo2u7lVMl5\nIo6gr9kOQL/O+O0N69RscqYauSaDseVVsT58fDAIyI0UEU008g1vxQEGZ1nhe2hL\nFaftcLZYVuCZH+h+x/s15yu1U1ONPRGNN2S12DlbDRrn7zD2gMxq+9f0fdVU6+rs\nh6mA4KvDAkyNG9YZeRbmbJ938OHAI1K/rThfpYNULMVlXnGqJA9fbiWdN7DxhjIf\nErOWevgi4AsM9gN8I8KYX8/s0Mdwogyr7XRmcHLqEXTOnTn1xGZe8KxkTlq1cIo=\n=0m7r\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a098a93e60d959d60500e64eacbe16ad33f8dd53\nparent 4c6db5607c6f94c38c10004efb292510bc71ba59\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628491208 +0800\ncommitter GitHub <noreply@github.com> 1628491208 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/1035a7438e7fbba03a313fab6c0a18c370e22642",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/1035a7438e7fbba03a313fab6c0a18c370e22642",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/1035a7438e7fbba03a313fab6c0a18c370e22642/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4c6db5607c6f94c38c10004efb292510bc71ba59",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/4c6db5607c6f94c38c10004efb292510bc71ba59",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/4c6db5607c6f94c38c10004efb292510bc71ba59"
+            }
+        ]
+    },
+    {
+        "sha": "4c6db5607c6f94c38c10004efb292510bc71ba59",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OjRjNmRiNTYwN2M2Zjk0YzM4YzEwMDA0ZWZiMjkyNTEwYmM3MWJhNTk=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-09T06:31:02Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-09T06:31:02Z"
+            },
+            "message": "Update README.md",
+            "tree": {
+                "sha": "ec9cb459e40461384afd38831499a66dfcf1f0f9",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/ec9cb459e40461384afd38831499a66dfcf1f0f9"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/4c6db5607c6f94c38c10004efb292510bc71ba59",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhEMumCRBK7hj4Ov3rIwAA9dgIAEwazlxQ+onWhLOhEj4LbBHK\nDM7kb7J9aTwrCoZB0MWBenl6/pTb6seJTliSZwDP+SgkKDx79DCG7NFFBUzbTPzq\nl/evRNyDI156D+ajvqSpLfdufE1O869YhZLAZbgQpMAy2r7WUbW3ihBwyJu9swdo\nbGn+mIMkfPDiRMQO0b4LIopXwzz7xr08GZsWvyIKjOzlYyJgiQyuH7Eme/9gE/Ul\nIiNg4fRkAJn767/ViP1flctvBFZtD/43WCqp7qnhzjGNR2He6nVhDFGCZM103rx5\nBE+JUOYE/kwTaCeIXYrsJD8BzdsV/YjSS5NXwK82cXsUo+YqbsjHlB+cnkdysFA=\n=SZnA\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ec9cb459e40461384afd38831499a66dfcf1f0f9\nparent aa4e2a68f43f4e85aacabf8bd84d19ec6997b310\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628490662 +0800\ncommitter GitHub <noreply@github.com> 1628490662 +0800\n\nUpdate README.md"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/4c6db5607c6f94c38c10004efb292510bc71ba59",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/4c6db5607c6f94c38c10004efb292510bc71ba59",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/4c6db5607c6f94c38c10004efb292510bc71ba59/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "aa4e2a68f43f4e85aacabf8bd84d19ec6997b310",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/aa4e2a68f43f4e85aacabf8bd84d19ec6997b310",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/aa4e2a68f43f4e85aacabf8bd84d19ec6997b310"
+            }
+        ]
+    },
+    {
+        "sha": "aa4e2a68f43f4e85aacabf8bd84d19ec6997b310",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmFhNGUyYTY4ZjQzZjRlODVhYWNhYmY4YmQ4NGQxOWVjNjk5N2IzMTA=",
+        "commit": {
+            "author": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-09T05:52:19Z"
+            },
+            "committer": {
+                "name": "BlinkDL",
+                "email": "a@a.com",
+                "date": "2021-08-09T05:52:19Z"
+            },
+            "message": "first commit",
+            "tree": {
+                "sha": "1a9011429863b9e608c803a8e18319199c12dbdc",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/1a9011429863b9e608c803a8e18319199c12dbdc"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/aa4e2a68f43f4e85aacabf8bd84d19ec6997b310",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/aa4e2a68f43f4e85aacabf8bd84d19ec6997b310",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/aa4e2a68f43f4e85aacabf8bd84d19ec6997b310",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/aa4e2a68f43f4e85aacabf8bd84d19ec6997b310/comments",
+        "author": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "www",
+            "id": 15486,
+            "node_id": "MDQ6VXNlcjE1NDg2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15486?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/www",
+            "html_url": "https://github.com/www",
+            "followers_url": "https://api.github.com/users/www/followers",
+            "following_url": "https://api.github.com/users/www/following{/other_user}",
+            "gists_url": "https://api.github.com/users/www/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/www/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/www/subscriptions",
+            "organizations_url": "https://api.github.com/users/www/orgs",
+            "repos_url": "https://api.github.com/users/www/repos",
+            "events_url": "https://api.github.com/users/www/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/www/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d21af78c9744f5c1f2bdfc99a4d14de727246cd2",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d21af78c9744f5c1f2bdfc99a4d14de727246cd2",
+                "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/d21af78c9744f5c1f2bdfc99a4d14de727246cd2"
+            }
+        ]
+    },
+    {
+        "sha": "d21af78c9744f5c1f2bdfc99a4d14de727246cd2",
+        "node_id": "MDY6Q29tbWl0MzkzODc0MDM1OmQyMWFmNzhjOTc0NGY1YzFmMmJkZmM5OWE0ZDE0ZGU3MjcyNDZjZDI=",
+        "commit": {
+            "author": {
+                "name": "PENG Bo",
+                "email": "33809201+BlinkDL@users.noreply.github.com",
+                "date": "2021-08-08T06:05:27Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-08-08T06:05:27Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "9949d25cb51f35b264a2521d5257b2e81756fb07",
+                "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/trees/9949d25cb51f35b264a2521d5257b2e81756fb07"
+            },
+            "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/git/commits/d21af78c9744f5c1f2bdfc99a4d14de727246cd2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhD3QnCRBK7hj4Ov3rIwAAfKIIAElSFqQyLf06IkHaWnOROPnu\nGht+20M4CjrcDsJCnu6O4g5+YAQ9Wh781bU5eYkv/Psi4WPj+/79/S8bzeLNDf+T\nYhlNCLVvLTBY4vGPX0dffWSOJDBPZEN7Hnm737STbHpKpza+tsjjrfx1l15PNWxO\nDBuCuRwrGvGg6KMVPyMM5t11VBmAW/CLsE3mkiJELEc7Nz89wkr9f/BqrDEUNT5S\na/R9y6WL7ng9JXSVS0OI+FwzTgSThvuJY3pSNgPg6UB8ERFp9j9w9dSqZJ9bLF72\nSmaqUNKKt/RL7jDfXXWzdD/aE5KDggXZZXUVBpwT8T+5E2gm8jB/w1CSJERknq4=\n=F6he\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9949d25cb51f35b264a2521d5257b2e81756fb07\nauthor PENG Bo <33809201+BlinkDL@users.noreply.github.com> 1628402727 +0800\ncommitter GitHub <noreply@github.com> 1628402727 +0800\n\nInitial commit"
+            }
+        },
+        "url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d21af78c9744f5c1f2bdfc99a4d14de727246cd2",
+        "html_url": "https://github.com/BlinkDL/RWKV-LM/commit/d21af78c9744f5c1f2bdfc99a4d14de727246cd2",
+        "comments_url": "https://api.github.com/repos/BlinkDL/RWKV-LM/commits/d21af78c9744f5c1f2bdfc99a4d14de727246cd2/comments",
+        "author": {
+            "login": "BlinkDL",
+            "id": 33809201,
+            "node_id": "MDQ6VXNlcjMzODA5MjAx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33809201?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BlinkDL",
+            "html_url": "https://github.com/BlinkDL",
+            "followers_url": "https://api.github.com/users/BlinkDL/followers",
+            "following_url": "https://api.github.com/users/BlinkDL/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BlinkDL/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/BlinkDL/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BlinkDL/subscriptions",
+            "organizations_url": "https://api.github.com/users/BlinkDL/orgs",
+            "repos_url": "https://api.github.com/users/BlinkDL/repos",
+            "events_url": "https://api.github.com/users/BlinkDL/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/BlinkDL/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    }
+]

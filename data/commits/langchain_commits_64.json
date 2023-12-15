@@ -1,0 +1,2050 @@
+[
+    {
+        "sha": "76aff023d7aeaee9bbe6c3cf244dd6e8636f8bc2",
+        "node_id": "C_kwDOIPDwltoAKDc2YWZmMDIzZDdhZWFlZTliYmU2YzNjZjI0NGRkNmU4NjM2ZjhiYzI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-11-02T04:29:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-02T04:29:39Z"
+            },
+            "message": "FAISS and embedding support  (#48)\n\nalso adds embeddings and an in memory docstore",
+            "tree": {
+                "sha": "d50f4f0acce86741727fe31d037ece5c781af210",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/d50f4f0acce86741727fe31d037ece5c781af210"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/76aff023d7aeaee9bbe6c3cf244dd6e8636f8bc2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYfIzCRBK7hj4Ov3rIwAAlk0IAIV8iIQ3igTiNSt99lZ+AMHh\nUtIprlq+KcICPkRNm42Pw9Mdj4Rit7iB8pQwHBt5v06qK3rvEXrXGjJhLlBxZS4q\npv+u1cCF0Npg+JLT+ly6gnonWexRzS5eGYtrTw0kKpam6xe0HL9mdryGDvr7dXfI\nK3fNq8rZ6qrSlrVbTg3BZh7OT/G73mmCo2xEg+Q/21aeH0mqQp0eNpeLWYatSE6U\nUWyYE7BNPqlssm/exwLTLzGvASBPebQmU3Hbuv1l6FF/BEPOERHy/rSddiWOtw9L\nHINHAB+QeLLysc9fu2D7xImvaC/MLfFXvNVEP6FadVqCmOFinz/hd7/g80sTdKA=\n=oP83\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d50f4f0acce86741727fe31d037ece5c781af210\nparent 798deaec2bcefc4a62dee25bbfb5ba76f0692dbb\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667363379 -0700\ncommitter GitHub <noreply@github.com> 1667363379 -0700\n\nFAISS and embedding support  (#48)\n\nalso adds embeddings and an in memory docstore"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/76aff023d7aeaee9bbe6c3cf244dd6e8636f8bc2",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/76aff023d7aeaee9bbe6c3cf244dd6e8636f8bc2",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/76aff023d7aeaee9bbe6c3cf244dd6e8636f8bc2/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "798deaec2bcefc4a62dee25bbfb5ba76f0692dbb",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/798deaec2bcefc4a62dee25bbfb5ba76f0692dbb",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/798deaec2bcefc4a62dee25bbfb5ba76f0692dbb"
+            }
+        ]
+    },
+    {
+        "sha": "798deaec2bcefc4a62dee25bbfb5ba76f0692dbb",
+        "node_id": "C_kwDOIPDwltoAKDc5OGRlYWVjMmJjZWZjNGE2MmRlZTI1YmJmYjViYTc2ZjA2OTJkYmI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-11-02T04:12:02Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-02T04:12:02Z"
+            },
+            "message": "add license (#50)",
+            "tree": {
+                "sha": "8a03802b8bd9f16ea497133135814ec38e89329f",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/8a03802b8bd9f16ea497133135814ec38e89329f"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/798deaec2bcefc4a62dee25bbfb5ba76f0692dbb",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYe4SCRBK7hj4Ov3rIwAALRAIAKOo1fPDorwzVwcoOWcZ7B2L\nHKTBJjeV0FS3dg7Fnk5lYYjePBLTrXe9UV12XtXl9JsYYQ+r6F/UN8aCKgz4jLx0\njawQT35jjnCDLFXwSP75wn4nDAtxtqI8EY6MlseSytbjGoqOa7lQMPJzcYNkGzzZ\n8b+NSyFJ8RZ37ur6rXzgD8BGj0b+nvcJhO+5DVlzgD0E9x+J2HLKpRivkv6jNokG\n9MRJi/HBy1dbHeRXcHMbLEYCf/VJa0PN7O4tF9rn/HQ4HyXl6jqJWjYIzhUy7mdw\ne0f6nV+j+puNjFVydMfVXhsJzeoHyn6CRO4tQpy8BLy7fYS1IqLwapE+dJJMzac=\n=NKcJ\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8a03802b8bd9f16ea497133135814ec38e89329f\nparent d3c187290294d863bdd6a9b27361100a07bf7a2e\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667362322 -0700\ncommitter GitHub <noreply@github.com> 1667362322 -0700\n\nadd license (#50)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/798deaec2bcefc4a62dee25bbfb5ba76f0692dbb",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/798deaec2bcefc4a62dee25bbfb5ba76f0692dbb",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/798deaec2bcefc4a62dee25bbfb5ba76f0692dbb/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d3c187290294d863bdd6a9b27361100a07bf7a2e",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/d3c187290294d863bdd6a9b27361100a07bf7a2e",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/d3c187290294d863bdd6a9b27361100a07bf7a2e"
+            }
+        ]
+    },
+    {
+        "sha": "d3c187290294d863bdd6a9b27361100a07bf7a2e",
+        "node_id": "C_kwDOIPDwltoAKGQzYzE4NzI5MDI5NGQ4NjNiZGQ2YTliMjczNjExMDBhMDdiZjdhMmU",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-11-02T04:09:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-02T04:09:39Z"
+            },
+            "message": "Improve docs (#51)",
+            "tree": {
+                "sha": "7d48c507a42028730f46a1f04965e988930646ca",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/7d48c507a42028730f46a1f04965e988930646ca"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/d3c187290294d863bdd6a9b27361100a07bf7a2e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYe2DCRBK7hj4Ov3rIwAA7csIAAVR0OALicQtsiu3tP4xOBJe\nx8Y1SisDpkDgpHUWdlgdTaoV8ZfohzIbdoi4JXbFN2Z12bCmFjY7l4yCfTqi6YZe\nspJg7PQpmzGMZYRRBr5MIu9ErNFiuAsX5/9LDX1wt9DxR8tWtSdCLqwIV4PDoRxN\nYAn0bJ0ygc+nPjL7xDGpdwARCjHEh/Cc11+w1xsZdeb28LOas2sGji7k2P66nF2+\nhhqUFy6cCkAjmLf5h/wA/sKbBdN+cBKhmzfFZXSbmjtwk7oW4mMTb8/9IdT6wOSH\nN9L/eSD9sRG7h4D3YxRhpOyFKq3FkkJXckQD0WC1B7A8T0PNazgp99fJ1dpQl60=\n=Eh/B\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7d48c507a42028730f46a1f04965e988930646ca\nparent e982cf4b2ef9c1d36ebc03be66ee1ed949043dde\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667362179 -0700\ncommitter GitHub <noreply@github.com> 1667362179 -0700\n\nImprove docs (#51)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/d3c187290294d863bdd6a9b27361100a07bf7a2e",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/d3c187290294d863bdd6a9b27361100a07bf7a2e",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/d3c187290294d863bdd6a9b27361100a07bf7a2e/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e982cf4b2ef9c1d36ebc03be66ee1ed949043dde",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/e982cf4b2ef9c1d36ebc03be66ee1ed949043dde",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/e982cf4b2ef9c1d36ebc03be66ee1ed949043dde"
+            }
+        ]
+    },
+    {
+        "sha": "e982cf4b2ef9c1d36ebc03be66ee1ed949043dde",
+        "node_id": "C_kwDOIPDwltoAKGU5ODJjZjRiMmVmOWMxZDM2ZWJjMDNiZTY2ZWUxZWQ5NDkwNDNkZGU",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-11-01T04:18:52Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-01T04:18:52Z"
+            },
+            "message": "Harrison/update docstore (#47)\n\nchange docstore interface",
+            "tree": {
+                "sha": "839bb87dba01f23e84108559130d466410f61739",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/839bb87dba01f23e84108559130d466410f61739"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/e982cf4b2ef9c1d36ebc03be66ee1ed949043dde",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYJ4tCRBK7hj4Ov3rIwAAK9QIAC45ehp8/swZ8dDNT3nbY8Qs\nYpoOyK+S52aVYz1PPaDz5v0AH1RDztKHKaoZ2aeGhCq7TjqLmNqSIX+T/FmTEQc3\nJv7zdxADiDUWj9zTCZRE56ghtyCCnsE2FTh69OoSmNUAv6IHJR6YcM0rld4IQFer\nghoL4MufhHP6KfLqFrRz1+yMt8CNQLYehjYMKMa9faDucrW8rzXoaEIDD5UsQJCj\n2flJX0A63xF0qwyPvoXoqyN0VUOZwLwgXAIZkJFuzcO0MtBhAr2eJhmv8zPQDR+H\nNrntJ6ZhhQQJqTMYyx5eHUt7dvUQl8pqpxnp0YIf3Vgqkmr6Zsu+pn6lKk9c07k=\n=vWnG\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 839bb87dba01f23e84108559130d466410f61739\nparent b45b126d9bca0539d91e8053c20c63c248c50d0d\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667276332 -0700\ncommitter GitHub <noreply@github.com> 1667276332 -0700\n\nHarrison/update docstore (#47)\n\nchange docstore interface"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/e982cf4b2ef9c1d36ebc03be66ee1ed949043dde",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/e982cf4b2ef9c1d36ebc03be66ee1ed949043dde",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/e982cf4b2ef9c1d36ebc03be66ee1ed949043dde/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b45b126d9bca0539d91e8053c20c63c248c50d0d",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/b45b126d9bca0539d91e8053c20c63c248c50d0d",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/b45b126d9bca0539d91e8053c20c63c248c50d0d"
+            }
+        ]
+    },
+    {
+        "sha": "b45b126d9bca0539d91e8053c20c63c248c50d0d",
+        "node_id": "C_kwDOIPDwltoAKGI0NWIxMjZkOWJjYTA1MzlkOTFlODA1M2MyMGM2M2MyNDhjNTBkMGQ",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-11-01T04:14:29Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-01T04:14:29Z"
+            },
+            "message": "bump version (#46)",
+            "tree": {
+                "sha": "0373c7d2f08c642b1dcf536769f17c0351074780",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/0373c7d2f08c642b1dcf536769f17c0351074780"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/b45b126d9bca0539d91e8053c20c63c248c50d0d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYJ0lCRBK7hj4Ov3rIwAAEXYIAIizT+LLRF2rnkl19aylrccL\nu4n1PnC2FYmhO02CL9BHRwUgcoHXRZcPtVxjOL6sQouWE9JVHSRI35Whv9nNmGH0\nmhXUp1KjNgXfgZCmMAnCuyRgjM/fghb9FE9ySh8Gpd4KrhYu+hJ9+VP+nAjFLQX9\nD7Pso+OrKBnOPWk3ikMUJjTL8ojylpecaiBbL1YRlu/c/13LU9/TNrNiN2jPVDsH\nHD8WrOfHDfmTEFvATXNebWcsP13AWP1/T2qVKNruMzsu0sZsWsyeuEtqgR71cE8O\nqOwsgAhud0jKFwToNv0ZcCZmkGvz2nxKReU6K5wtbSx9N7TZ+dY79SJr7hBnaF0=\n=3NCF\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0373c7d2f08c642b1dcf536769f17c0351074780\nparent 160af4ba6b42e5edd5064b577f568db4d0798771\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667276069 -0700\ncommitter GitHub <noreply@github.com> 1667276069 -0700\n\nbump version (#46)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/b45b126d9bca0539d91e8053c20c63c248c50d0d",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/b45b126d9bca0539d91e8053c20c63c248c50d0d",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/b45b126d9bca0539d91e8053c20c63c248c50d0d/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "160af4ba6b42e5edd5064b577f568db4d0798771",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/160af4ba6b42e5edd5064b577f568db4d0798771",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/160af4ba6b42e5edd5064b577f568db4d0798771"
+            }
+        ]
+    },
+    {
+        "sha": "160af4ba6b42e5edd5064b577f568db4d0798771",
+        "node_id": "C_kwDOIPDwltoAKDE2MGFmNGJhNmI0MmU1ZWRkNTA2NGI1NzdmNTY4ZGI0ZDA3OTg3NzE",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-11-01T03:17:22Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-01T03:17:22Z"
+            },
+            "message": "Harrison/map reduce (#36)",
+            "tree": {
+                "sha": "065bed119320afd872c9b03b14b86c852eafb933",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/065bed119320afd872c9b03b14b86c852eafb933"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/160af4ba6b42e5edd5064b577f568db4d0798771",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYI/CCRBK7hj4Ov3rIwAA61sIAH86QHQYs8NkWniW5CYFRzM9\nlS7sVGJSiZ/ffF8JDLfpEvZUJ/r7pVvP8IW26NsWZ/1OpRYjMBJMf2A0gLgI2EOd\nnazxvEZcl2q1w0ezmcsQzpNg1ksVxMFYuXdZqe30HmCRUV7jdl17Z++kmNACI7zW\nDEpK1tPclfTIFUMnQv0gWqUQly8bve28ovYnFpQ9W7XSiJmRxmDmVMdr5pO04Eme\nPL8TQJvwtQYeYvsGG4da+H5VhS3JewHHKWpYJV3SznK4ZMjtRNVvnhtSx3LMmx5B\nQhx3K1TXRnZFQ9+yuy9s33NwlkBZy+aOfzRFYsfMfL6U9N3MvTaBv4m7Mgo6Xu0=\n=e6EX\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 065bed119320afd872c9b03b14b86c852eafb933\nparent 4ac53450128e209c3ff5534a2247da809cc5bd8d\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667272642 -0700\ncommitter GitHub <noreply@github.com> 1667272642 -0700\n\nHarrison/map reduce (#36)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/160af4ba6b42e5edd5064b577f568db4d0798771",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/160af4ba6b42e5edd5064b577f568db4d0798771",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/160af4ba6b42e5edd5064b577f568db4d0798771/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4ac53450128e209c3ff5534a2247da809cc5bd8d",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/4ac53450128e209c3ff5534a2247da809cc5bd8d",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/4ac53450128e209c3ff5534a2247da809cc5bd8d"
+            }
+        ]
+    },
+    {
+        "sha": "4ac53450128e209c3ff5534a2247da809cc5bd8d",
+        "node_id": "C_kwDOIPDwltoAKDRhYzUzNDUwMTI4ZTIwOWMzZmY1NTM0YTIyNDdkYTgwOWNjNWJkOGQ",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-31T05:48:52Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-31T05:48:52Z"
+            },
+            "message": "add developer guide (#44)",
+            "tree": {
+                "sha": "13665ce6b0276f0087e7495168220a427eaa0d14",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/13665ce6b0276f0087e7495168220a427eaa0d14"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/4ac53450128e209c3ff5534a2247da809cc5bd8d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjX2HECRBK7hj4Ov3rIwAAQA8IAFoM6TLAH2AyYgjDOk4xREMZ\n1aofibQ/K2wr/hzheAnI+zAht2cRv1eoMNE3NRnKEwNlCPqrGIdOmSpIy3HXS/ie\nKQhA1VSywpFAoiVWEe5tf1EDxN/VwZeO1081co5RiO3xe3bi4SGdsID3ZQF8F9zo\nmuCxX+XCD2lSTCjNCt5fsg0Xwv3eu0jU0l2SYTOP1fvWNvyXild6zCIzW64yH8mu\nq6eH8mtS2D6bqUnnWZm3HmSoRDQRIt80rI2Ktp45NpyWUVF0br+OLXOakLNzatva\nnilMeERAIcqFBwQoKUsxopfgveEM/+UfaOYWKpCOOCJKh4Pl4HRDeYNlB1wTFjA=\n=rr+t\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 13665ce6b0276f0087e7495168220a427eaa0d14\nparent fba30e07d14cd645381a38e69822ac5c25cbe857\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667195332 -0700\ncommitter GitHub <noreply@github.com> 1667195332 -0700\n\nadd developer guide (#44)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/4ac53450128e209c3ff5534a2247da809cc5bd8d",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/4ac53450128e209c3ff5534a2247da809cc5bd8d",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/4ac53450128e209c3ff5534a2247da809cc5bd8d/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fba30e07d14cd645381a38e69822ac5c25cbe857",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/fba30e07d14cd645381a38e69822ac5c25cbe857",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/fba30e07d14cd645381a38e69822ac5c25cbe857"
+            }
+        ]
+    },
+    {
+        "sha": "fba30e07d14cd645381a38e69822ac5c25cbe857",
+        "node_id": "C_kwDOIPDwltoAKGZiYTMwZTA3ZDE0Y2Q2NDUzODFhMzhlNjk4MjJhYzVjMjVjYmU4NTc",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-31T01:09:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-31T01:09:04Z"
+            },
+            "message": "factor out mock python repl (#43)",
+            "tree": {
+                "sha": "231048d9c00b38592e5452b0ba37da8e0b6fb5fc",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/231048d9c00b38592e5452b0ba37da8e0b6fb5fc"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/fba30e07d14cd645381a38e69822ac5c25cbe857",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjXyAwCRBK7hj4Ov3rIwAA9kMIAKznodO/nv+vLDdq49AAhenr\n1yX82srGHrSTUAc+XEinhJJD7rRc+HD+7+kP017YiqtRDV07VbTKVpRQiRMBjGiT\n85912HOglfsq+bYqABROqxhu2dcJUGqwXdFa8vRVvOk5QHbo6N91ipqgspAo8PPQ\nUhUtJY8Seh69SQLc3zX9yAM3EniEMmVqt87UMkvK6LSFwbRc0bSbiP39FMvhnRok\nmfVq7MDtQDgJ9DSF3pS5s3uGGaSzTTAiGs8Exld+Btkfk3MRLkdVKVSgEVKVrQoU\nBZ8pmstHPKZyUy15cpJNbb2yxUY/2P0AUHpuHW7Mgzaku3vg3uXNtD9yGFyqlbY=\n=zYDT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 231048d9c00b38592e5452b0ba37da8e0b6fb5fc\nparent 7b0d02ac51e871632be561c5cd23ff57f4fed212\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667178544 -0700\ncommitter GitHub <noreply@github.com> 1667178544 -0700\n\nfactor out mock python repl (#43)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/fba30e07d14cd645381a38e69822ac5c25cbe857",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/fba30e07d14cd645381a38e69822ac5c25cbe857",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/fba30e07d14cd645381a38e69822ac5c25cbe857/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7b0d02ac51e871632be561c5cd23ff57f4fed212",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/7b0d02ac51e871632be561c5cd23ff57f4fed212",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/7b0d02ac51e871632be561c5cd23ff57f4fed212"
+            }
+        ]
+    },
+    {
+        "sha": "7b0d02ac51e871632be561c5cd23ff57f4fed212",
+        "node_id": "C_kwDOIPDwltoAKDdiMGQwMmFjNTFlODcxNjMyYmU1NjFjNWNkMjNmZjU3ZjRmZWQyMTI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-30T16:45:27Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-30T16:45:27Z"
+            },
+            "message": "prompt templating (#41)\n\nCo-authored-by: Samantha Whitmore <whitmore.samantha@gmail.com>",
+            "tree": {
+                "sha": "07dd02281a9142db579c8075d471279a21a8b7c9",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/07dd02281a9142db579c8075d471279a21a8b7c9"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/7b0d02ac51e871632be561c5cd23ff57f4fed212",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjXqonCRBK7hj4Ov3rIwAAr2UIACFZvIKLDajGLvS524EVgxZQ\nU6xEBlffUvLunJLQn5CAMuJVhWg1mEu6a4RIGfydIqY4aFCGnYGMKo+h+erbQhbF\nroRhe5d3kjdQfkSRS6djyu1/pmhsTe5+7+uFERGawCuber+/GEnOfKr4nNixtjRX\ns1zecwA77XFBUuWFxque2bv7W87neP7XGYwx4yF4QjwmLeno2rilb344WQ/4Gfg/\nkogVL7KcboxJHeZTX3qu0Eb4yKtSSTf2fNNBLgDinjQSOEUvWJpiINLg5p50DrYI\n2Wg6OUEdMOzsXJHO/PpVl4bRZYPYv6mLBpgUWufRoLChbCccQE5q4QedlkdKvWo=\n=gB8a\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 07dd02281a9142db579c8075d471279a21a8b7c9\nparent 52383a485d3f17fe180ed52f9823a26188fff41b\nauthor Harrison Chase <hw.chase.17@gmail.com> 1667148327 -0700\ncommitter GitHub <noreply@github.com> 1667148327 -0700\n\nprompt templating (#41)\n\nCo-authored-by: Samantha Whitmore <whitmore.samantha@gmail.com>"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/7b0d02ac51e871632be561c5cd23ff57f4fed212",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/7b0d02ac51e871632be561c5cd23ff57f4fed212",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/7b0d02ac51e871632be561c5cd23ff57f4fed212/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "52383a485d3f17fe180ed52f9823a26188fff41b",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/52383a485d3f17fe180ed52f9823a26188fff41b",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/52383a485d3f17fe180ed52f9823a26188fff41b"
+            }
+        ]
+    },
+    {
+        "sha": "52383a485d3f17fe180ed52f9823a26188fff41b",
+        "node_id": "C_kwDOIPDwltoAKDUyMzgzYTQ4NWQzZjE3ZmUxODBlZDUyZjk4MjNhMjYxODhmZmY0MWI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-28T06:41:30Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-28T06:41:30Z"
+            },
+            "message": "bump version to 0.0.4 (#37)",
+            "tree": {
+                "sha": "e514edda99a893c54781dd2c7452fb144c4bc8de",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/e514edda99a893c54781dd2c7452fb144c4bc8de"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/52383a485d3f17fe180ed52f9823a26188fff41b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjW3maCRBK7hj4Ov3rIwAAIXEIAE5WZaNBTsU62YHgu4n0DsgE\nHXOjxggQR+7gRM2lP7IZa7GoW0O9nqYyfRDdO66xrREGVeIvGw9yb/Qs1/H2uiIt\nTTn9uLIL23FxebG0/lGP5eSkkTQs+kJePcp9FMe9mW4ZF0BiGtsKghSSpwQTOLaO\nd59hG17FYoaBi8QfpKnUqiwk3aKC/9A+8g0/ZNs2S7d5t50pSmTJ/Te7BVexoQQZ\nFO5WXU40YEyDHdRFukvwg6lORTCzITVLEhSzZyepp2QKWrmByJQj5c6IDt+CzAJo\nwUUhq4uemtcjBfizgCb4S5NA7WnoAMBcHoLNIbd/4n1zpYfVk2jhmC2IPtLLeQk=\n=/jSu\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree e514edda99a893c54781dd2c7452fb144c4bc8de\nparent af81e9ca9c54c5039368ca11f5f63007f2ad04b0\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666939290 -0700\ncommitter GitHub <noreply@github.com> 1666939290 -0700\n\nbump version to 0.0.4 (#37)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/52383a485d3f17fe180ed52f9823a26188fff41b",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/52383a485d3f17fe180ed52f9823a26188fff41b",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/52383a485d3f17fe180ed52f9823a26188fff41b/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "af81e9ca9c54c5039368ca11f5f63007f2ad04b0",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/af81e9ca9c54c5039368ca11f5f63007f2ad04b0",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/af81e9ca9c54c5039368ca11f5f63007f2ad04b0"
+            }
+        ]
+    },
+    {
+        "sha": "af81e9ca9c54c5039368ca11f5f63007f2ad04b0",
+        "node_id": "C_kwDOIPDwltoAKGFmODFlOWNhOWM1NGM1MDM5MzY4Y2ExMWY1ZjYzMDA3ZjJhZDA0YjA",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-28T06:21:47Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-28T06:21:47Z"
+            },
+            "message": "add sql database (#35)",
+            "tree": {
+                "sha": "725d7e84715ed0dfa58c152360338670bc984ffb",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/725d7e84715ed0dfa58c152360338670bc984ffb"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/af81e9ca9c54c5039368ca11f5f63007f2ad04b0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjW3T7CRBK7hj4Ov3rIwAAj5EIAKw9eh7Lk/jb8XDvFpJS8ZCz\n+cInneqi5Hu1nRSlwqX+7S+yL5acpUvDTwFbfHXN/nF7koSq+KC1DnOxM4LXOHsR\n1TCApvp12KXkVetrJTT1eNLYKJ2Gyr6Px96WxRzl9l6XYbqC10nhVuqJoHCvYzxz\nbal4YiTWDFAAZv2AOep3oluSkRBuWI3EYNY3hRmOuH+SSz9D5yS8HlARdjawow8K\nEAnqaVe/FZyiqVjIxxnZmVzv7E6E+0G3sUFOaJuCJiz5PxdfE7oO+FacK5V2D5uk\nng3565CKalq4AhKtWW6vKC+iDEd+1snMckZaEaGELR1ViBKt7VSMTeDoqpRxTyY=\n=2aLT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 725d7e84715ed0dfa58c152360338670bc984ffb\nparent 90a6e578bc8d2147f5fcc22d6413686027eca2b5\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666938107 -0700\ncommitter GitHub <noreply@github.com> 1666938107 -0700\n\nadd sql database (#35)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/af81e9ca9c54c5039368ca11f5f63007f2ad04b0",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/af81e9ca9c54c5039368ca11f5f63007f2ad04b0",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/af81e9ca9c54c5039368ca11f5f63007f2ad04b0/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "90a6e578bc8d2147f5fcc22d6413686027eca2b5",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/90a6e578bc8d2147f5fcc22d6413686027eca2b5",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/90a6e578bc8d2147f5fcc22d6413686027eca2b5"
+            }
+        ]
+    },
+    {
+        "sha": "90a6e578bc8d2147f5fcc22d6413686027eca2b5",
+        "node_id": "C_kwDOIPDwltoAKDkwYTZlNTc4YmM4ZDIxNDdmNWZjYzIyZDY0MTM2ODYwMjdlY2EyYjU",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-28T01:20:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-28T01:20:16Z"
+            },
+            "message": "fix type hint (#34)",
+            "tree": {
+                "sha": "f579ad36b996b5c1b8cfd38015dd493581cc38b5",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/f579ad36b996b5c1b8cfd38015dd493581cc38b5"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/90a6e578bc8d2147f5fcc22d6413686027eca2b5",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWy5QCRBK7hj4Ov3rIwAAGkAIAB03mA/o85nDE+9Oa2q1YYWI\nTDct7hHnNQaoRFJfQZGozROY/igy0U1FT4VJtILwXrWkZNEFL6JmUK5XAuE+d77B\nFV2m/jmYvGgohrhTuT+vMqxjuHv4s8PUMKl69Bu0y/6K7PhSF4Y3AvurZwiGiVz7\nJQE2zTvyXUYtJF7Dqj5nuZ4szJZh5usrT40hbJLL6QJvFNCdqhqnnY3X/7UpmGhf\nEYqj4n7c6KkjOhSWLGSprbmfUX3GWsaLoZc27e9gGivLPVeT0aMq9Fh5R9fOsrtJ\nU3lXshjOh7NVbY7FmNbLh/m0f6ub7ThGDg8XqMUxjDZOyhuuNHC4A1x7zoP9DtE=\n=cxik\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f579ad36b996b5c1b8cfd38015dd493581cc38b5\nparent 6a3dca888ba75e219185c54cd0f0ba72d1f90a26\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666920016 -0700\ncommitter GitHub <noreply@github.com> 1666920016 -0700\n\nfix type hint (#34)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/90a6e578bc8d2147f5fcc22d6413686027eca2b5",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/90a6e578bc8d2147f5fcc22d6413686027eca2b5",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/90a6e578bc8d2147f5fcc22d6413686027eca2b5/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6a3dca888ba75e219185c54cd0f0ba72d1f90a26",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/6a3dca888ba75e219185c54cd0f0ba72d1f90a26",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/6a3dca888ba75e219185c54cd0f0ba72d1f90a26"
+            }
+        ]
+    },
+    {
+        "sha": "6a3dca888ba75e219185c54cd0f0ba72d1f90a26",
+        "node_id": "C_kwDOIPDwltoAKDZhM2RjYTg4OGJhNzVlMjE5MTg1YzU0Y2QwZjBiYTcyZDFmOTBhMjY",
+        "commit": {
+            "author": {
+                "name": "Michael",
+                "email": "michael.kozakov@gmail.com",
+                "date": "2022-10-28T01:17:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-28T01:17:03Z"
+            },
+            "message": "Fix cohere integration (#33)\n\nCurrently the cohere module uses a non-supported model. Updating this to\r\nuse the default model if one is not specified.",
+            "tree": {
+                "sha": "a50c8c7a6766ee3d4c0c3dc9608fad0d017e96ba",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/a50c8c7a6766ee3d4c0c3dc9608fad0d017e96ba"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/6a3dca888ba75e219185c54cd0f0ba72d1f90a26",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWy2PCRBK7hj4Ov3rIwAAm8wIAC9nw7XuBb4rscZJ/0eIymJP\nCWZB7U0Prc4ZQ5c6EVg6X73VZzgAvolgRz2E6g8LYa+HDBVpM6d6Yq2cY5SqY23I\nuHm7lCsU6LpfO+caImUJKVGFgFzTL9nSyfkd3sN4BIjrVHbaXjd8NM1vX+e+UV/v\ndeUwf8oHj/vXgAmPgVN119BXV/S81T2j1hTsSV9xHz0DSSk30VGdTZZCPOoggap6\no0ceWsKNsqthCYmgbfy99YjwSHPMUUtjOw6IA9Jtkv3zcy9WQL6rB25KjF/CfBSv\n647zgIRkLADGkuqKrFPrUaR0v8e12q/+NZ4oq+kMtqFOWEN1UOHvn5IKBymiWwI=\n=OkGh\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a50c8c7a6766ee3d4c0c3dc9608fad0d017e96ba\nparent c7f9c62532f8137db2c4ab80335ac1472e79d56a\nauthor Michael <michael.kozakov@gmail.com> 1666919823 -0400\ncommitter GitHub <noreply@github.com> 1666919823 -0700\n\nFix cohere integration (#33)\n\nCurrently the cohere module uses a non-supported model. Updating this to\r\nuse the default model if one is not specified."
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/6a3dca888ba75e219185c54cd0f0ba72d1f90a26",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/6a3dca888ba75e219185c54cd0f0ba72d1f90a26",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/6a3dca888ba75e219185c54cd0f0ba72d1f90a26/comments",
+        "author": {
+            "login": "mkozakov",
+            "id": 1411530,
+            "node_id": "MDQ6VXNlcjE0MTE1MzA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1411530?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mkozakov",
+            "html_url": "https://github.com/mkozakov",
+            "followers_url": "https://api.github.com/users/mkozakov/followers",
+            "following_url": "https://api.github.com/users/mkozakov/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mkozakov/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mkozakov/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mkozakov/subscriptions",
+            "organizations_url": "https://api.github.com/users/mkozakov/orgs",
+            "repos_url": "https://api.github.com/users/mkozakov/repos",
+            "events_url": "https://api.github.com/users/mkozakov/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mkozakov/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c7f9c62532f8137db2c4ab80335ac1472e79d56a",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/c7f9c62532f8137db2c4ab80335ac1472e79d56a",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/c7f9c62532f8137db2c4ab80335ac1472e79d56a"
+            }
+        ]
+    },
+    {
+        "sha": "c7f9c62532f8137db2c4ab80335ac1472e79d56a",
+        "node_id": "C_kwDOIPDwltoAKGM3ZjljNjI1MzJmODEzN2RiMmM0YWI4MDMzNWFjMTQ3MmU3OWQ1NmE",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-27T04:35:44Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-27T04:35:44Z"
+            },
+            "message": "bump version to 0.0.3 (#29)",
+            "tree": {
+                "sha": "45173981e36bc6bf9dc88ebea9d2e08b35079a21",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/45173981e36bc6bf9dc88ebea9d2e08b35079a21"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/c7f9c62532f8137db2c4ab80335ac1472e79d56a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWgqgCRBK7hj4Ov3rIwAASCwIAKZzRwzjqHzTqeFHzRTaBrUB\nCblBvrOPD9HRMQeOSdHv+U+sqBIiBeGGf592x8skY8e6p7fLOrmvmORcSjTF4cTV\npC41fKKCDwrPASrxPabhr1hoVnJg/DLJlTrPic24lz4cZynFxCBOE2sx45hWKyWE\n6K7yKhyanqQ35KNULohSzQBjZnK60o5LY6Ce5Kh7Sf6u6rEJzb18hHm763K+nxzS\nE+k6LtYfnbv3hDFPJHdq8HM3Se3MPvwYdacf4JeY+BF6Nz06TMOxRe5hP726p4jB\n6Ek4XQ8Mx6IFRZypmriqdN74FLuDtk1dsea0VVKEEj5/GVsaZC2LypkrMbRhgsk=\n=hClG\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 45173981e36bc6bf9dc88ebea9d2e08b35079a21\nparent ab731f1f8cc8c45ff5becfbbbaed38e9954997f7\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666845344 -0700\ncommitter GitHub <noreply@github.com> 1666845344 -0700\n\nbump version to 0.0.3 (#29)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/c7f9c62532f8137db2c4ab80335ac1472e79d56a",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/c7f9c62532f8137db2c4ab80335ac1472e79d56a",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/c7f9c62532f8137db2c4ab80335ac1472e79d56a/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ab731f1f8cc8c45ff5becfbbbaed38e9954997f7",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/ab731f1f8cc8c45ff5becfbbbaed38e9954997f7",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/ab731f1f8cc8c45ff5becfbbbaed38e9954997f7"
+            }
+        ]
+    },
+    {
+        "sha": "ab731f1f8cc8c45ff5becfbbbaed38e9954997f7",
+        "node_id": "C_kwDOIPDwltoAKGFiNzMxZjFmOGNjOGM0NWZmNWJlY2ZiYmJhZWQzOGU5OTU0OTk3Zjc",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-27T04:35:23Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-27T04:35:23Z"
+            },
+            "message": "add wikipedia to readme (#30)",
+            "tree": {
+                "sha": "c12663676b64154a8d1c3f26d20c1f111e7d13ad",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/c12663676b64154a8d1c3f26d20c1f111e7d13ad"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/ab731f1f8cc8c45ff5becfbbbaed38e9954997f7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWgqLCRBK7hj4Ov3rIwAAD/4IAJLvNiUUb5gFByzFIcq4cdmz\nRjSSS/g5+is/w/skanVYyFhHnDiGXYX4bxEZutAVRianTDFXOj1MWlbg5qNhR0au\nfwQqac7hicUvwET5BBZ2NPm3Ych1BtZ7KPyRzpUH/z8HZGEz+PNegt12vLzBgw4H\nwN84dyl54GJJOd1e6ynu1F7Ga6WfC00qb1BuOMi669cJJkQ590Z8c2jn/RSsFr5s\n4IbZjEACKvjPWG2BvaGEtAwK8DLCPo1BUUbk2ldQj7xNVBdk0M3YTNBsQ3ELwj16\nFYZIfXlUNUO12n9ynu+1ymtuqXHh0gmMhn0q62nv0A4gg08Z6lmBtT5Rew8SAgc=\n=8HEo\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c12663676b64154a8d1c3f26d20c1f111e7d13ad\nparent ce7b14b84381c766ae42a0f71953b2a56c024dbb\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666845323 -0700\ncommitter GitHub <noreply@github.com> 1666845323 -0700\n\nadd wikipedia to readme (#30)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/ab731f1f8cc8c45ff5becfbbbaed38e9954997f7",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/ab731f1f8cc8c45ff5becfbbbaed38e9954997f7",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/ab731f1f8cc8c45ff5becfbbbaed38e9954997f7/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ce7b14b84381c766ae42a0f71953b2a56c024dbb",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/ce7b14b84381c766ae42a0f71953b2a56c024dbb",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/ce7b14b84381c766ae42a0f71953b2a56c024dbb"
+            }
+        ]
+    },
+    {
+        "sha": "ce7b14b84381c766ae42a0f71953b2a56c024dbb",
+        "node_id": "C_kwDOIPDwltoAKGNlN2IxNGI4NDM4MWM3NjZhZTQyYTBmNzE5NTNiMmE1NmMwMjRkYmI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-27T04:02:23Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-27T04:02:23Z"
+            },
+            "message": "Harrison/add react chain (#24)\n\nfrom https://arxiv.org/abs/2210.03629\r\n\r\nstill need to think if docstore abstraction makes sense",
+            "tree": {
+                "sha": "4b14afb2008f85080184620699adb8f714544bab",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/4b14afb2008f85080184620699adb8f714544bab"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/ce7b14b84381c766ae42a0f71953b2a56c024dbb",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWgLPCRBK7hj4Ov3rIwAAsCkIAFHCkf8/bOWVQ+7V9ZZsmFXH\no+tKG+Ovs4OF5N/x31XsNoRs3u9teIiLSS+Rczz6YCu3lIEc8TOxTERyMlHpMBLG\nT0MRbwBNVq+TebU5+Oym4SovTS+0WLpky6xz1k0nUBPYhIWy17x2sIz+mhTkNg4Q\n6txfZlo9100UggQekzHHyIp0fy1SGRdJ/DX2NGopmffliiFuNoUp+xByZPh9ygXj\n984Nij52JhlZzgg3cMMaRqw76TXnTQ628SyROHnE2fDnRb+Iac+xgr04US6+ZNls\n5L83/dezp5EAFRlHd1Tcs7ym0EG/Maol1m7w/EYXBZv7nl3StSX4Tc4C+k3fBb4=\n=OKBS\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4b14afb2008f85080184620699adb8f714544bab\nparent 61a51b7a769b12f8bc9a544c747e875b7630b95d\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666843343 -0700\ncommitter GitHub <noreply@github.com> 1666843343 -0700\n\nHarrison/add react chain (#24)\n\nfrom https://arxiv.org/abs/2210.03629\r\n\r\nstill need to think if docstore abstraction makes sense"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/ce7b14b84381c766ae42a0f71953b2a56c024dbb",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/ce7b14b84381c766ae42a0f71953b2a56c024dbb",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/ce7b14b84381c766ae42a0f71953b2a56c024dbb/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "61a51b7a769b12f8bc9a544c747e875b7630b95d",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/61a51b7a769b12f8bc9a544c747e875b7630b95d",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/61a51b7a769b12f8bc9a544c747e875b7630b95d"
+            }
+        ]
+    },
+    {
+        "sha": "61a51b7a769b12f8bc9a544c747e875b7630b95d",
+        "node_id": "C_kwDOIPDwltoAKDYxYTUxYjdhNzY5YjEyZjhiYzlhNTQ0Yzc0N2U4NzViNzYzMGI5NWQ",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-26T05:05:24Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-26T05:05:24Z"
+            },
+            "message": "bump version to 0.0.2 (#28)",
+            "tree": {
+                "sha": "a6ff2c789eb3b169633d1346d629c5bfb1f0c622",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/a6ff2c789eb3b169633d1346d629c5bfb1f0c622"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/61a51b7a769b12f8bc9a544c747e875b7630b95d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWMAUCRBK7hj4Ov3rIwAA+/kIAGS3J2XQD1EfbAcJ8CmfCXiL\nA408aGraQcEDazwu+CgVUz6K5l0axIowS8cHfYc5O+S5GSlB2NZQBZmlhFeMlITy\nXQZqtQPI61DfiwzgWpL8+SBzQrza0+Z/yI+7LYe+L0psOCEhQgs6cB994Z52YZKN\n5aFlEecNupwoLwE0PDMjVZ+5Ez47AzGJl182GXU7Aycgf2tr/yjvV3FaSYzz9PzL\nPJEj9UI6f6jvzguF778LnJEdEefLEONVopaYnmqLH28bWrtWHZT4vMNiG/4KfxDm\n0kW8DKrmpvLywdZha7xDl1G7OH4FxOK1gU8noikP10betc5//3fWax6jTATUlAo=\n=QNkD\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a6ff2c789eb3b169633d1346d629c5bfb1f0c622\nparent e40ec861f565bcd88db55d1feecaef26091b7569\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666760724 -0700\ncommitter GitHub <noreply@github.com> 1666760724 -0700\n\nbump version to 0.0.2 (#28)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/61a51b7a769b12f8bc9a544c747e875b7630b95d",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/61a51b7a769b12f8bc9a544c747e875b7630b95d",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/61a51b7a769b12f8bc9a544c747e875b7630b95d/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e40ec861f565bcd88db55d1feecaef26091b7569",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/e40ec861f565bcd88db55d1feecaef26091b7569",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/e40ec861f565bcd88db55d1feecaef26091b7569"
+            }
+        ]
+    },
+    {
+        "sha": "e40ec861f565bcd88db55d1feecaef26091b7569",
+        "node_id": "C_kwDOIPDwltoAKGU0MGVjODYxZjU2NWJjZDg4ZGI1NWQxZmVlY2FlZjI2MDkxYjc1Njk",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-26T05:05:11Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-26T05:05:11Z"
+            },
+            "message": "clean up example (#27)\n\nclean up jupyter notebook for huggingface",
+            "tree": {
+                "sha": "3e0d16eb5eaf21738d8da7f00d2b4b2b15902740",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/3e0d16eb5eaf21738d8da7f00d2b4b2b15902740"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/e40ec861f565bcd88db55d1feecaef26091b7569",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWMAHCRBK7hj4Ov3rIwAAtakIAEyh3EKcwxjBlRa6UXw5XUg1\ngeqEsfd33ynBzyjPYG6E2HWM+siqo/+uTTng55NPSIhUGPQTB0OarZRHtDG03bFj\nbrFz3KTEn5ONac+9eFECz+f7hZf81a1PwQCX9eID40gJ1ec+Dx2He0re4YHLzzV9\nlUhrE2xy44O2xvXhImVkT+z9IK/mk2SFXhJ/KK54BkbMgJWSnsu9EXXXp4zUsNi4\n6WH6v/M+X0tTtUxdNQTWmr2tex81/0K81X1D5KArn+qjUUG9bFDsr1sVxQW+8Fai\nIghBUA3Db+kKbdlEkYISk6LYLh28MfhNV8HbrKt9DTcKaK8hhLiJnLrcakVkGWg=\n=Kneh\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3e0d16eb5eaf21738d8da7f00d2b4b2b15902740\nparent 020c42dcae2dba497d5ef5efb4dd533189bfb79f\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666760711 -0700\ncommitter GitHub <noreply@github.com> 1666760711 -0700\n\nclean up example (#27)\n\nclean up jupyter notebook for huggingface"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/e40ec861f565bcd88db55d1feecaef26091b7569",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/e40ec861f565bcd88db55d1feecaef26091b7569",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/e40ec861f565bcd88db55d1feecaef26091b7569/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "020c42dcae2dba497d5ef5efb4dd533189bfb79f",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/020c42dcae2dba497d5ef5efb4dd533189bfb79f",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/020c42dcae2dba497d5ef5efb4dd533189bfb79f"
+            }
+        ]
+    },
+    {
+        "sha": "020c42dcae2dba497d5ef5efb4dd533189bfb79f",
+        "node_id": "C_kwDOIPDwltoAKDAyMGM0MmRjYWUyZGJhNDk3ZDVlZjVlZmI0ZGQ1MzMxODliZmI3OWY",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-26T05:00:33Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-26T05:00:33Z"
+            },
+            "message": "Harrison/add huggingface hub (#23)\n\nAdd support for huggingface hub\r\n\r\nI could not find a good way to enforce stop tokens over the huggingface\r\nhub api - that needs to hopefully be cleaned up in the future",
+            "tree": {
+                "sha": "4af2b0d7af6e977f141b3a4d29a4a458284848b4",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/4af2b0d7af6e977f141b3a4d29a4a458284848b4"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/020c42dcae2dba497d5ef5efb4dd533189bfb79f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWL7xCRBK7hj4Ov3rIwAADpYIAIYYKkFNsF3omlZfsF/xvjI5\nYHzseocU180DI5WBSHA/XU9alL/8gGc8GsbbjbKZVCiIAdA9RPfrlPIHuMH1ae7e\nu5MfwwRwxJqpet7H7oIeUDFNgKfCinde229kdWhubrmLQHlkYetIdUcT9g2dFPy0\nTwl1qrMm+D550MQo6JVNwPQWdWwbFlgFyIT/CxJZ5HgZQzpCNpHctKVcxywhJHjj\nl8QDlY7+rDmrsg5nsV0SX0n6dP5PuYRtNRnNYf+h7HfKAbT7ZSEG0FFUWbpUn1lq\nRAcY5FAA++/mFqDLKLI31ASX/UG/0m0DTUr9pMPWCjdlqE/12OjVcjrvOeXkRP0=\n=PYXU\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4af2b0d7af6e977f141b3a4d29a4a458284848b4\nparent 316aae8223b76456011a49a6152e870ae2184277\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666760433 -0700\ncommitter GitHub <noreply@github.com> 1666760433 -0700\n\nHarrison/add huggingface hub (#23)\n\nAdd support for huggingface hub\r\n\r\nI could not find a good way to enforce stop tokens over the huggingface\r\nhub api - that needs to hopefully be cleaned up in the future"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/020c42dcae2dba497d5ef5efb4dd533189bfb79f",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/020c42dcae2dba497d5ef5efb4dd533189bfb79f",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/020c42dcae2dba497d5ef5efb4dd533189bfb79f/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "316aae8223b76456011a49a6152e870ae2184277",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/316aae8223b76456011a49a6152e870ae2184277",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/316aae8223b76456011a49a6152e870ae2184277"
+            }
+        ]
+    },
+    {
+        "sha": "316aae8223b76456011a49a6152e870ae2184277",
+        "node_id": "C_kwDOIPDwltoAKDMxNmFhZTgyMjNiNzY0NTYwMTFhNDlhNjE1MmU4NzBhZTIxODQyNzc",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-26T03:56:48Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-26T03:56:48Z"
+            },
+            "message": "rename validator (#25)\n\nmore appropriate name",
+            "tree": {
+                "sha": "787600ccea46281fcdac50f9e7d33b3560e2e9a1",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/787600ccea46281fcdac50f9e7d33b3560e2e9a1"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/316aae8223b76456011a49a6152e870ae2184277",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWLAACRBK7hj4Ov3rIwAAvlEIAEMdbQoGrtSpi24R7UIonGzz\nerXK50toPlnUo8rT8/3RwlWs1oZAaU/0M4X26+Noo5NlAs82ENTKorcQqyISdB18\nw8u4KhY4yP4ypCC3ksj+8waJrbYj1QWyG0sGA7nw/U9kAZdWO4ww9LigdmyWIPN/\n5xDnNMlfM7WA005Whz5ssg9DFhHy8XIIhdeXEIY3szkbjxpxxprjnjv/Jll9r95A\nJqEU5K4LsYk4EnXnUWB2iZaOuU/TbhkoCm1m1bK3WA7cDMT4AvqPPHZS7PZM2rju\nXD6TwmJTcAj8XYmfAEVrdeCPRRNg763RxGkAJlDKVzIAyKjeUUX0x6eL7JRw1Es=\n=Tx/Y\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 787600ccea46281fcdac50f9e7d33b3560e2e9a1\nparent d2fdcba29db2a88056cfa87d9abfbdde840bd8c2\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666756608 -0700\ncommitter GitHub <noreply@github.com> 1666756608 -0700\n\nrename validator (#25)\n\nmore appropriate name"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/316aae8223b76456011a49a6152e870ae2184277",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/316aae8223b76456011a49a6152e870ae2184277",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/316aae8223b76456011a49a6152e870ae2184277/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d2fdcba29db2a88056cfa87d9abfbdde840bd8c2",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/d2fdcba29db2a88056cfa87d9abfbdde840bd8c2",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/d2fdcba29db2a88056cfa87d9abfbdde840bd8c2"
+            }
+        ]
+    },
+    {
+        "sha": "d2fdcba29db2a88056cfa87d9abfbdde840bd8c2",
+        "node_id": "C_kwDOIPDwltoAKGQyZmRjYmEyOWRiMmE4ODA1NmNmYTg3ZDlhYmZiZGRlODQwYmQ4YzI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-26T03:22:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-26T03:22:16Z"
+            },
+            "message": "fix test name (#22)",
+            "tree": {
+                "sha": "33c393296763880e398888010385a19f23de82b0",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/33c393296763880e398888010385a19f23de82b0"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/d2fdcba29db2a88056cfa87d9abfbdde840bd8c2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWKfoCRBK7hj4Ov3rIwAAhfcIADMQXBgGCNpknv85uUCTBHkt\nP7MDgTIEhulvK3oIGpI6ccBM1FDHEE8q/nm2NYnKgaRMVXYpJY3eCy1gd0IbOaQ5\ntlTv08KXf3B6afIqPRsTJLWUBahblRkaPm8eCCkykWDBwOijHjywPal6uKUHSBnw\nPeAf5cCCtLS/HUjZnXHKPrULaFgk032k2vDdJ/u85uxeQ4HwAJgBFw4YGG4DymXo\nMB3WR27h3+ax3dg7TPx0XIo/oWyIb9kqmDpujY2788mMU122lGsKOqyahh51ptjv\nKQvpL7pSNcFTZUhx/dEoGPubi2+cR1G5byE5aPa4AXcxgc8Upqa9FzAgsDb6O34=\n=zHoP\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 33c393296763880e398888010385a19f23de82b0\nparent 21b10ffb130aeac3131899e551939338b0dcebef\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666754536 -0700\ncommitter GitHub <noreply@github.com> 1666754536 -0700\n\nfix test name (#22)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/d2fdcba29db2a88056cfa87d9abfbdde840bd8c2",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/d2fdcba29db2a88056cfa87d9abfbdde840bd8c2",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/d2fdcba29db2a88056cfa87d9abfbdde840bd8c2/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "21b10ffb130aeac3131899e551939338b0dcebef",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/21b10ffb130aeac3131899e551939338b0dcebef",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/21b10ffb130aeac3131899e551939338b0dcebef"
+            }
+        ]
+    },
+    {
+        "sha": "21b10ffb130aeac3131899e551939338b0dcebef",
+        "node_id": "C_kwDOIPDwltoAKDIxYjEwZmZiMTMwYWVhYzMxMzE4OTllNTUxOTM5MzM4YjBkY2ViZWY",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-25T15:47:42Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-25T15:47:42Z"
+            },
+            "message": "update readme (#21)",
+            "tree": {
+                "sha": "029b21fa6e97ea7b3413657c8ec6b8ef0f213772",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/029b21fa6e97ea7b3413657c8ec6b8ef0f213772"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/21b10ffb130aeac3131899e551939338b0dcebef",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWAUeCRBK7hj4Ov3rIwAA5woIALHZQBS59GuLWb/TyUgCZgqZ\nt4L16BnmIdKLqHK0dqeSVe65H5BTJN06lqKCdTFm7Psnk++1kT3jw9ocR4WWc+GK\n0g2A5ACyLINg38SlE0WildPC6bhyjkLH5z41uaW91XBRqLXC7ChcDYeKMi98sKGf\niW6yjnXl/uA18UzXI8/+g86TUmjvSRRiidDCr7MG+AkpbfIE9h5hLcULoaqbLxuA\nvHrRxr3l6pQVPb+ajpfsTvsrJOueXPvT7YDUJyl64EiRG/HTwsWJJgITHH7s36rC\ncDu9c1+eePO/kMhJvpA71Kf8YPLJDN8IShd/A5TQET1KZ7Eb5QrpSQI9cbW5850=\n=zKtX\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 029b21fa6e97ea7b3413657c8ec6b8ef0f213772\nparent 1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666712862 -0700\ncommitter GitHub <noreply@github.com> 1666712862 -0700\n\nupdate readme (#21)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/21b10ffb130aeac3131899e551939338b0dcebef",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/21b10ffb130aeac3131899e551939338b0dcebef",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/21b10ffb130aeac3131899e551939338b0dcebef/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7"
+            }
+        ]
+    },
+    {
+        "sha": "1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7",
+        "node_id": "C_kwDOIPDwltoAKDFiYzhkZWY4NDg5YzY2YWIyZTQxNThhNTVlMDVkYmRjYjAxZDNiZjc",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-25T04:06:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-25T04:06:08Z"
+            },
+            "message": "add emoji (#20)",
+            "tree": {
+                "sha": "ef7877357dabfdbf9621081636f9a8b5146ee529",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/ef7877357dabfdbf9621081636f9a8b5146ee529"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjV2CwCRBK7hj4Ov3rIwAARksIAJlLri474EUxRisRpc9Tr/+g\nD+S+bK//4ppIvFRCtIw93m593Re2bLA1YLCL1fxDQg6ie0oqaf90GBl31Wo4MJXh\nIC6TPsFKdTQ3tAbXmdl6ONyCEG0YcJyiSWy/G+gS/eygWKfti54NVRYdYIcKeob0\nblBjmZMdzObYcJnLr6CEQJiKq0nTo1oiJkjxgDp0u7gqcelYinE/9YW9ipHdZcEl\nkeBsJzpCwTCtvGpVWgr5xwXk/RsGj/eLRjTlBNitNMpMD9AVU9NcO2rwl7ZOi8P3\nmghj9ynzpz3ir5jfLZKFs3G1femS+fvQZ5bzrUuL60AGwxdnBl6cgzgAOIwMwzo=\n=MH4o\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ef7877357dabfdbf9621081636f9a8b5146ee529\nparent 5621ca7b074c194d0f4e57c5664e223fa4b5e09b\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666670768 -0700\ncommitter GitHub <noreply@github.com> 1666670768 -0700\n\nadd emoji (#20)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/1bc8def8489c66ab2e4158a55e05dbdcb01d3bf7/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5621ca7b074c194d0f4e57c5664e223fa4b5e09b",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/5621ca7b074c194d0f4e57c5664e223fa4b5e09b",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/5621ca7b074c194d0f4e57c5664e223fa4b5e09b"
+            }
+        ]
+    },
+    {
+        "sha": "5621ca7b074c194d0f4e57c5664e223fa4b5e09b",
+        "node_id": "C_kwDOIPDwltoAKDU2MjFjYTdiMDc0YzE5NGQwZjRlNTdjNTY2NGUyMjNmYTRiNWUwOWI",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-25T03:24:15Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-25T03:24:15Z"
+            },
+            "message": "Harrison/more documentation (#19)",
+            "tree": {
+                "sha": "eb7d72e65f76c645bf6e81a53ccb6ce055d66642",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/eb7d72e65f76c645bf6e81a53ccb6ce055d66642"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/5621ca7b074c194d0f4e57c5664e223fa4b5e09b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjV1bfCRBK7hj4Ov3rIwAATTQIAAUCBozl0O2nbt476IOAzS2y\nZmV4M21Gu4g+E2RPFrADKH1T+5OKN5BbYU6GyEgHwgWgVv5pOSi3ObBZxFasDMa8\ni40zU0OS/P1QZ7ASSWkRneEJiP4ZQz2oAA569CnwsLmx9w/j7EobQUKhti8k0d1u\nV4VEdUd/CIZnfIcuCBBEiZF28tVGLJJMmC1I4CcP+xjUFLiCZxoUEZE0oXVoI0IX\nn3tdqGsqi3gFP7AflQ0WDu2MUiBOIKwdo+q6lGlOCSGsl+z0HuUFq3anTnxWLMPG\nncE7cuO7+C56H3+BjUeVCQo11ouEgfKARQSV/nhVt1mTpSFHE4+E8BF6AG4u74g=\n=XUBj\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree eb7d72e65f76c645bf6e81a53ccb6ce055d66642\nparent 1ef3ab4d0e663be147a5bcf542045e1f4a065778\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666668255 -0700\ncommitter GitHub <noreply@github.com> 1666668255 -0700\n\nHarrison/more documentation (#19)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/5621ca7b074c194d0f4e57c5664e223fa4b5e09b",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/5621ca7b074c194d0f4e57c5664e223fa4b5e09b",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/5621ca7b074c194d0f4e57c5664e223fa4b5e09b/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1ef3ab4d0e663be147a5bcf542045e1f4a065778",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/1ef3ab4d0e663be147a5bcf542045e1f4a065778",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/1ef3ab4d0e663be147a5bcf542045e1f4a065778"
+            }
+        ]
+    },
+    {
+        "sha": "1ef3ab4d0e663be147a5bcf542045e1f4a065778",
+        "node_id": "C_kwDOIPDwltoAKDFlZjNhYjRkMGU2NjNiZTE0N2E1YmNmNTQyMDQ1ZTFmNGEwNjU3Nzg",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-25T02:56:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-10-25T02:56:26Z"
+            },
+            "message": "Harrison/add natbot (#18)",
+            "tree": {
+                "sha": "ed732c4bfe19038e0e6ed4a81481fe8745614517",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/ed732c4bfe19038e0e6ed4a81481fe8745614517"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/1ef3ab4d0e663be147a5bcf542045e1f4a065778",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjV1BaCRBK7hj4Ov3rIwAA9j4IACqKjZeoL75MtCCoxtai5bSF\niTmM2J9CsVAGqdD3J2pRMGkrFn8YFNhX/6FNJ2jZWI/d7WvzBtI7HsBuBOi+MmD9\nhBUwJyeNdXlp4Jaf9ajqvnAiWpgXQeudLg9r77UTKdCHZ7Yh4jO9EleTQIRI1RuR\ne0wFNGzR6XD47Oub3oZhvjL+9roIXz14/KMYmC5HTSi/dVXEUJLgyaB6cQ+Mdqvs\nPsOmQkzyKBFCCBpa9tVLxAnwtS94sDZHnR+nQG5GnqHMZxwppXViLsyVHo350+uu\n8sX/pwHhVZlVWmA9Q+qgXn46qqghuYSpZkKX8fNY/zUhNEoUFnnvN+OHXjVVlUw=\n=9YCN\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ed732c4bfe19038e0e6ed4a81481fe8745614517\nparent 18aeb720126a68201c7e3b5a617139c27c779496\nauthor Harrison Chase <hw.chase.17@gmail.com> 1666666586 -0700\ncommitter GitHub <noreply@github.com> 1666666586 -0700\n\nHarrison/add natbot (#18)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/1ef3ab4d0e663be147a5bcf542045e1f4a065778",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/1ef3ab4d0e663be147a5bcf542045e1f4a065778",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/1ef3ab4d0e663be147a5bcf542045e1f4a065778/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "18aeb720126a68201c7e3b5a617139c27c779496",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/commits/18aeb720126a68201c7e3b5a617139c27c779496",
+                "html_url": "https://github.com/langchain-ai/langchain/commit/18aeb720126a68201c7e3b5a617139c27c779496"
+            }
+        ]
+    },
+    {
+        "sha": "18aeb720126a68201c7e3b5a617139c27c779496",
+        "node_id": "C_kwDOIPDwltoAKDE4YWViNzIwMTI2YTY4MjAxYzdlM2I1YTYxNzEzOWMyN2M3Nzk0OTY",
+        "commit": {
+            "author": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-24T21:51:15Z"
+            },
+            "committer": {
+                "name": "Harrison Chase",
+                "email": "hw.chase.17@gmail.com",
+                "date": "2022-10-24T21:51:15Z"
+            },
+            "message": "initial commit",
+            "tree": {
+                "sha": "0f7ac0557e67b7a6db9098e811d8899c5da3e62b",
+                "url": "https://api.github.com/repos/langchain-ai/langchain/git/trees/0f7ac0557e67b7a6db9098e811d8899c5da3e62b"
+            },
+            "url": "https://api.github.com/repos/langchain-ai/langchain/git/commits/18aeb720126a68201c7e3b5a617139c27c779496",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/langchain-ai/langchain/commits/18aeb720126a68201c7e3b5a617139c27c779496",
+        "html_url": "https://github.com/langchain-ai/langchain/commit/18aeb720126a68201c7e3b5a617139c27c779496",
+        "comments_url": "https://api.github.com/repos/langchain-ai/langchain/commits/18aeb720126a68201c7e3b5a617139c27c779496/comments",
+        "author": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "hwchase17",
+            "id": 11986836,
+            "node_id": "MDQ6VXNlcjExOTg2ODM2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11986836?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hwchase17",
+            "html_url": "https://github.com/hwchase17",
+            "followers_url": "https://api.github.com/users/hwchase17/followers",
+            "following_url": "https://api.github.com/users/hwchase17/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hwchase17/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hwchase17/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hwchase17/subscriptions",
+            "organizations_url": "https://api.github.com/users/hwchase17/orgs",
+            "repos_url": "https://api.github.com/users/hwchase17/repos",
+            "events_url": "https://api.github.com/users/hwchase17/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hwchase17/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    }
+]

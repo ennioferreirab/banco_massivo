@@ -1,0 +1,1186 @@
+[
+    {
+        "sha": "46d15a1edb1fe48ddf5ea68b04cb19e5c493f739",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjQ2ZDE1YTFlZGIxZmU0OGRkZjVlYTY4YjA0Y2IxOWU1YzQ5M2Y3Mzk=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-17T19:01:29Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-17T19:01:29Z"
+            },
+            "message": "- Adds support for multiple index backends (Closes #4, Closes #5)\n- Adds id map for all index types to support any id type (Closes #6)\n- Skip installing Faiss on Windows (Closes #1, Closes #8)\n- Default to Faiss when available, Annoy otherwise\n- Switch to faiss-cpu (Closes #2, Closes #9)\n- Add quantize flag for Faiss (Closes #10)",
+            "tree": {
+                "sha": "5b698e88fa93f2df3edfbbc73df52f04e367258c",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/5b698e88fa93f2df3edfbbc73df52f04e367258c"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/46d15a1edb1fe48ddf5ea68b04cb19e5c493f739",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/46d15a1edb1fe48ddf5ea68b04cb19e5c493f739",
+        "html_url": "https://github.com/neuml/txtai/commit/46d15a1edb1fe48ddf5ea68b04cb19e5c493f739",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/46d15a1edb1fe48ddf5ea68b04cb19e5c493f739/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9d46e36f978bc59d70e76ef277e2c6c5896623c4",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/9d46e36f978bc59d70e76ef277e2c6c5896623c4",
+                "html_url": "https://github.com/neuml/txtai/commit/9d46e36f978bc59d70e76ef277e2c6c5896623c4"
+            }
+        ]
+    },
+    {
+        "sha": "9d46e36f978bc59d70e76ef277e2c6c5896623c4",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjlkNDZlMzZmOTc4YmM1OWQ3MGU3NmVmMjc3ZTJjNmM1ODk2NjIzYzQ=",
+        "commit": {
+            "author": {
+                "name": "David Mezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-17T11:58:05Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-08-17T11:58:05Z"
+            },
+            "message": "Merge pull request #3 from 0xflotus/patch-1\n\nFixed typos in documentation.",
+            "tree": {
+                "sha": "42b07686e7c979ca1105a80ee5f53efa492ed3e4",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/42b07686e7c979ca1105a80ee5f53efa492ed3e4"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/9d46e36f978bc59d70e76ef277e2c6c5896623c4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfOnDNCRBK7hj4Ov3rIwAAdHIIAEBtpoM/tW/ry6RNCV1qjkdy\njqEp6h042BawyREFSwU2mP2gvtVJwyUpn+0Q1m5o28Rql85i1YYYz3KJjtpra7oY\nbUn/qOuIM6PzTzeVaq/7xYO+pWQAKGnFozgiqkvKT1mRDpIhpFGeyAxf6tQRd9Ys\nZ39mlyWJoSK1G2S1MHdtGg9A4QmfYT9tJvF53MdWXuGkPjzHSEiGkco/qEfJlwJY\n/vu3SoVBJyWhshu0lNWF7wn7Qnif7rGWuPUQhQzdOIlhjmzi8RA1tDxQ86lz1Of4\nCzd2oaa7SN2Itc/Wtt647hZw219QpBm5HdbvNBoIHE0oPwBWWHL+KqBG9KoFyGU=\n=c8WW\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 42b07686e7c979ca1105a80ee5f53efa492ed3e4\nparent 5873086771a5542b4882ec609fb11de0be521fcc\nparent ad1d2bd5ac9bf3d839c6658b1cb850ade700c189\nauthor David Mezzetti <561939+davidmezzetti@users.noreply.github.com> 1597665485 -0400\ncommitter GitHub <noreply@github.com> 1597665485 -0400\n\nMerge pull request #3 from 0xflotus/patch-1\n\nFixed typos in documentation. "
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/9d46e36f978bc59d70e76ef277e2c6c5896623c4",
+        "html_url": "https://github.com/neuml/txtai/commit/9d46e36f978bc59d70e76ef277e2c6c5896623c4",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/9d46e36f978bc59d70e76ef277e2c6c5896623c4/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5873086771a5542b4882ec609fb11de0be521fcc",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/5873086771a5542b4882ec609fb11de0be521fcc",
+                "html_url": "https://github.com/neuml/txtai/commit/5873086771a5542b4882ec609fb11de0be521fcc"
+            },
+            {
+                "sha": "ad1d2bd5ac9bf3d839c6658b1cb850ade700c189",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/ad1d2bd5ac9bf3d839c6658b1cb850ade700c189",
+                "html_url": "https://github.com/neuml/txtai/commit/ad1d2bd5ac9bf3d839c6658b1cb850ade700c189"
+            }
+        ]
+    },
+    {
+        "sha": "ad1d2bd5ac9bf3d839c6658b1cb850ade700c189",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OmFkMWQyYmQ1YWM5YmYzZDgzOWM2NjU4YjFjYjg1MGFkZTcwMGMxODk=",
+        "commit": {
+            "author": {
+                "name": "0xflotus",
+                "email": "0xflotus@gmail.com",
+                "date": "2020-08-17T06:55:45Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-08-17T06:55:45Z"
+            },
+            "message": "Update 01_Introducing_txtai.ipynb (#1)",
+            "tree": {
+                "sha": "42b07686e7c979ca1105a80ee5f53efa492ed3e4",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/42b07686e7c979ca1105a80ee5f53efa492ed3e4"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/ad1d2bd5ac9bf3d839c6658b1cb850ade700c189",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfOinxCRBK7hj4Ov3rIwAAdHIIADfBqq5EbllpirQBUPdIEs+O\nUkAvNyTh3//xplu+KzASNg3mARRksgiDVlRPvXUz9IhaYOBckOKNlQ0AWHeu/GmZ\nP5sqm82waTrW3vKU3hhpINRKa1H0bdKuYBLLNMmTJKFpSTYUCpdIkNSblWc54GEp\nK/B45gb83ms5e9u27lkJfAVTBGJeCelaaNGHNz+7rxQC6L+lLufmV4Dr1kyEWW+o\nvmDRhxTPdr5XBEOZk0inKvbuDjpnx/ARCl+AbwWBbpvzcrtw5UfHaHsoS+wEpBV/\n6KsW3QP9bDBiRjX65V33XkZ87/O39885gRT0Jep1X1XoYFcEqhNZtWrkhqGQW00=\n=K8l7\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 42b07686e7c979ca1105a80ee5f53efa492ed3e4\nparent 305b735b84aaff1bc2ad5760d9d292d44495bc2d\nauthor 0xflotus <0xflotus@gmail.com> 1597647345 +0200\ncommitter GitHub <noreply@github.com> 1597647345 +0200\n\nUpdate 01_Introducing_txtai.ipynb (#1)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/ad1d2bd5ac9bf3d839c6658b1cb850ade700c189",
+        "html_url": "https://github.com/neuml/txtai/commit/ad1d2bd5ac9bf3d839c6658b1cb850ade700c189",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/ad1d2bd5ac9bf3d839c6658b1cb850ade700c189/comments",
+        "author": {
+            "login": "0xflotus",
+            "id": 26602940,
+            "node_id": "MDQ6VXNlcjI2NjAyOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26602940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/0xflotus",
+            "html_url": "https://github.com/0xflotus",
+            "followers_url": "https://api.github.com/users/0xflotus/followers",
+            "following_url": "https://api.github.com/users/0xflotus/following{/other_user}",
+            "gists_url": "https://api.github.com/users/0xflotus/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/0xflotus/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/0xflotus/subscriptions",
+            "organizations_url": "https://api.github.com/users/0xflotus/orgs",
+            "repos_url": "https://api.github.com/users/0xflotus/repos",
+            "events_url": "https://api.github.com/users/0xflotus/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/0xflotus/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "305b735b84aaff1bc2ad5760d9d292d44495bc2d",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/305b735b84aaff1bc2ad5760d9d292d44495bc2d",
+                "html_url": "https://github.com/neuml/txtai/commit/305b735b84aaff1bc2ad5760d9d292d44495bc2d"
+            }
+        ]
+    },
+    {
+        "sha": "305b735b84aaff1bc2ad5760d9d292d44495bc2d",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjMwNWI3MzViODRhYWZmMWJjMmFkNTc2MGQ5ZDI5MmQ0NDQ5NWJjMmQ=",
+        "commit": {
+            "author": {
+                "name": "0xflotus",
+                "email": "0xflotus@gmail.com",
+                "date": "2020-08-17T06:53:15Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-08-17T06:53:15Z"
+            },
+            "message": "fixed small error",
+            "tree": {
+                "sha": "6d51e0cd1802ec7928ea4685ee9bf6bb7afdfa89",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/6d51e0cd1802ec7928ea4685ee9bf6bb7afdfa89"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/305b735b84aaff1bc2ad5760d9d292d44495bc2d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfOilbCRBK7hj4Ov3rIwAAdHIIAI4HBkMIkLKg15jMT5T7OCsV\nBLuaA7MjdCQNmAK8fujk5djKZmjPKAwRymvQvR+ACw88dkFKv3DYgK1IMqYPt5lK\nof9XF64iE0f4uqvhTuCZcyqX6ThoNzAXAH4dBKKpvnnLx6pcvh3D4PO6A7SOsnOE\nZ5rq7nCQ8OLZ1G59ld00s0m41U4eUmUqqZbm/411at9zVlsGx1NHfSEvWbVdYEbz\nQo8KPwmZTwcKcNhAtoPlirtZkwX1f5tCU7v5D23CjSc/+wQfNZeK+LvGuH+A86WD\nqR0pHFlRhFD5BoOHXdIIdpkn0HBhxkZ45JKy3KSCwdbtes7miPL+sikxTxHXtqQ=\n=pzgg\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6d51e0cd1802ec7928ea4685ee9bf6bb7afdfa89\nparent 5873086771a5542b4882ec609fb11de0be521fcc\nauthor 0xflotus <0xflotus@gmail.com> 1597647195 +0200\ncommitter GitHub <noreply@github.com> 1597647195 +0200\n\nfixed small error"
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/305b735b84aaff1bc2ad5760d9d292d44495bc2d",
+        "html_url": "https://github.com/neuml/txtai/commit/305b735b84aaff1bc2ad5760d9d292d44495bc2d",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/305b735b84aaff1bc2ad5760d9d292d44495bc2d/comments",
+        "author": {
+            "login": "0xflotus",
+            "id": 26602940,
+            "node_id": "MDQ6VXNlcjI2NjAyOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26602940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/0xflotus",
+            "html_url": "https://github.com/0xflotus",
+            "followers_url": "https://api.github.com/users/0xflotus/followers",
+            "following_url": "https://api.github.com/users/0xflotus/following{/other_user}",
+            "gists_url": "https://api.github.com/users/0xflotus/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/0xflotus/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/0xflotus/subscriptions",
+            "organizations_url": "https://api.github.com/users/0xflotus/orgs",
+            "repos_url": "https://api.github.com/users/0xflotus/repos",
+            "events_url": "https://api.github.com/users/0xflotus/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/0xflotus/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5873086771a5542b4882ec609fb11de0be521fcc",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/5873086771a5542b4882ec609fb11de0be521fcc",
+                "html_url": "https://github.com/neuml/txtai/commit/5873086771a5542b4882ec609fb11de0be521fcc"
+            }
+        ]
+    },
+    {
+        "sha": "5873086771a5542b4882ec609fb11de0be521fcc",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjU4NzMwODY3NzFhNTU0MmI0ODgyZWM2MDlmYjExZGUwYmU1MjFmY2M=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-14T15:06:17Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-14T15:06:17Z"
+            },
+            "message": "Updated badges in README",
+            "tree": {
+                "sha": "472e694d58de6194a1ed49314867620d1004d297",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/472e694d58de6194a1ed49314867620d1004d297"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/5873086771a5542b4882ec609fb11de0be521fcc",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/5873086771a5542b4882ec609fb11de0be521fcc",
+        "html_url": "https://github.com/neuml/txtai/commit/5873086771a5542b4882ec609fb11de0be521fcc",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/5873086771a5542b4882ec609fb11de0be521fcc/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6880788c9524fb2ca66084c0c114b8003a89aaae",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/6880788c9524fb2ca66084c0c114b8003a89aaae",
+                "html_url": "https://github.com/neuml/txtai/commit/6880788c9524fb2ca66084c0c114b8003a89aaae"
+            }
+        ]
+    },
+    {
+        "sha": "6880788c9524fb2ca66084c0c114b8003a89aaae",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjY4ODA3ODhjOTUyNGZiMmNhNjYwODRjMGMxMTRiODAwM2E4OWFhYWU=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-14T14:58:43Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-14T14:58:43Z"
+            },
+            "message": "Added badges to README",
+            "tree": {
+                "sha": "a878ba5527bf167c7390c2a82b3b1b6ce1ef79a8",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/a878ba5527bf167c7390c2a82b3b1b6ce1ef79a8"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/6880788c9524fb2ca66084c0c114b8003a89aaae",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/6880788c9524fb2ca66084c0c114b8003a89aaae",
+        "html_url": "https://github.com/neuml/txtai/commit/6880788c9524fb2ca66084c0c114b8003a89aaae",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/6880788c9524fb2ca66084c0c114b8003a89aaae/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8ca4a1f5137ec65f01478e42fa86ea78dc296e35",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/8ca4a1f5137ec65f01478e42fa86ea78dc296e35",
+                "html_url": "https://github.com/neuml/txtai/commit/8ca4a1f5137ec65f01478e42fa86ea78dc296e35"
+            }
+        ]
+    },
+    {
+        "sha": "8ca4a1f5137ec65f01478e42fa86ea78dc296e35",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjhjYTRhMWY1MTM3ZWM2NWYwMTQ3OGU0MmZhODZlYTc4ZGMyOTZlMzU=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T17:39:44Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T17:39:44Z"
+            },
+            "message": "Updated README and examples",
+            "tree": {
+                "sha": "cdc94fcb2e6202494f93642f7598858de32cca0f",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/cdc94fcb2e6202494f93642f7598858de32cca0f"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/8ca4a1f5137ec65f01478e42fa86ea78dc296e35",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/8ca4a1f5137ec65f01478e42fa86ea78dc296e35",
+        "html_url": "https://github.com/neuml/txtai/commit/8ca4a1f5137ec65f01478e42fa86ea78dc296e35",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/8ca4a1f5137ec65f01478e42fa86ea78dc296e35/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7",
+                "html_url": "https://github.com/neuml/txtai/commit/ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7"
+            }
+        ]
+    },
+    {
+        "sha": "ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OmZmNmMwYWEyNzQzYzEzYjUwZjliOTExNzE2NzFlNWRjMGRjODNiYTc=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T17:27:50Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T17:27:50Z"
+            },
+            "message": "Fixed broken link in README",
+            "tree": {
+                "sha": "befe60ffe0bc8be20f811d1617083c22791c5338",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/befe60ffe0bc8be20f811d1617083c22791c5338"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7",
+        "html_url": "https://github.com/neuml/txtai/commit/ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/ff6c0aa2743c13b50f9b91171671e5dc0dc83ba7/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "569d3560b80e81de129c45db7fdb3c6864b27fed",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/569d3560b80e81de129c45db7fdb3c6864b27fed",
+                "html_url": "https://github.com/neuml/txtai/commit/569d3560b80e81de129c45db7fdb3c6864b27fed"
+            }
+        ]
+    },
+    {
+        "sha": "569d3560b80e81de129c45db7fdb3c6864b27fed",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjU2OWQzNTYwYjgwZTgxZGUxMjljNDVkYjdmZGIzYzY4NjRiMjdmZWQ=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T17:24:30Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T17:24:30Z"
+            },
+            "message": "Updated README and changed setup to use pymagnitude-lite",
+            "tree": {
+                "sha": "89ef6bb0393b6aee184cd38f94b17949c16ddab1",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/89ef6bb0393b6aee184cd38f94b17949c16ddab1"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/569d3560b80e81de129c45db7fdb3c6864b27fed",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/569d3560b80e81de129c45db7fdb3c6864b27fed",
+        "html_url": "https://github.com/neuml/txtai/commit/569d3560b80e81de129c45db7fdb3c6864b27fed",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/569d3560b80e81de129c45db7fdb3c6864b27fed/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "58d193f37555b82ee77a76ca63bf65de1833543a",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/58d193f37555b82ee77a76ca63bf65de1833543a",
+                "html_url": "https://github.com/neuml/txtai/commit/58d193f37555b82ee77a76ca63bf65de1833543a"
+            }
+        ]
+    },
+    {
+        "sha": "58d193f37555b82ee77a76ca63bf65de1833543a",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjU4ZDE5M2YzNzU1NWI4MmVlNzdhNzZjYTYzYmY2NWRlMTgzMzU0M2E=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T15:54:50Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T15:54:50Z"
+            },
+            "message": "Added examples",
+            "tree": {
+                "sha": "b96c058126f32c0401c6aba3bb650bf08eeb2b3d",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/b96c058126f32c0401c6aba3bb650bf08eeb2b3d"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/58d193f37555b82ee77a76ca63bf65de1833543a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/58d193f37555b82ee77a76ca63bf65de1833543a",
+        "html_url": "https://github.com/neuml/txtai/commit/58d193f37555b82ee77a76ca63bf65de1833543a",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/58d193f37555b82ee77a76ca63bf65de1833543a/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8",
+                "html_url": "https://github.com/neuml/txtai/commit/e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8"
+            }
+        ]
+    },
+    {
+        "sha": "e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OmU4M2QwZWQ5ZmI0NzY1Y2Y3ZjE5ZWI5Yjk3MGU2MWE2OTI0YTgyYzg=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T15:24:55Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-11T15:24:55Z"
+            },
+            "message": "Updated README",
+            "tree": {
+                "sha": "8888b50bfa589075a9ef2c27d9b630476fb9275e",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/8888b50bfa589075a9ef2c27d9b630476fb9275e"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8",
+        "html_url": "https://github.com/neuml/txtai/commit/e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/e83d0ed9fb4765cf7f19eb9b970e61a6924a82c8/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b4d8b80e0b61539ca8e12dfc691ca52d4532dca5",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/b4d8b80e0b61539ca8e12dfc691ca52d4532dca5",
+                "html_url": "https://github.com/neuml/txtai/commit/b4d8b80e0b61539ca8e12dfc691ca52d4532dca5"
+            }
+        ]
+    },
+    {
+        "sha": "b4d8b80e0b61539ca8e12dfc691ca52d4532dca5",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OmI0ZDhiODBlMGI2MTUzOWNhOGUxMmRmYzY5MWNhNTJkNDUzMmRjYTU=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T20:40:15Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T20:40:15Z"
+            },
+            "message": "Ensure output directory exists before writing index",
+            "tree": {
+                "sha": "08310fa70e9281488807563a9aa71e8a33ac3e2e",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/08310fa70e9281488807563a9aa71e8a33ac3e2e"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/b4d8b80e0b61539ca8e12dfc691ca52d4532dca5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/b4d8b80e0b61539ca8e12dfc691ca52d4532dca5",
+        "html_url": "https://github.com/neuml/txtai/commit/b4d8b80e0b61539ca8e12dfc691ca52d4532dca5",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/b4d8b80e0b61539ca8e12dfc691ca52d4532dca5/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a",
+                "html_url": "https://github.com/neuml/txtai/commit/0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a"
+            }
+        ]
+    },
+    {
+        "sha": "0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjBlMTRiMGJlZGIxZTNmYTAzYTNmMTBmM2Y0MmQ2MmY0MTk0MjJjMGE=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T20:25:19Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T20:25:19Z"
+            },
+            "message": "Only create lsa file if model exists",
+            "tree": {
+                "sha": "5badab55656bfb819e62caef3b733e56c2b407d2",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/5badab55656bfb819e62caef3b733e56c2b407d2"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a",
+        "html_url": "https://github.com/neuml/txtai/commit/0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/0e14b0bedb1e3fa03a3f10f3f42d62f419422c0a/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bbbf849038e98eb097d7d1e89af9284607f7e6c2",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/bbbf849038e98eb097d7d1e89af9284607f7e6c2",
+                "html_url": "https://github.com/neuml/txtai/commit/bbbf849038e98eb097d7d1e89af9284607f7e6c2"
+            }
+        ]
+    },
+    {
+        "sha": "bbbf849038e98eb097d7d1e89af9284607f7e6c2",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OmJiYmY4NDkwMzhlOThlYjA5N2Q3ZDFlODlhZjkyODQ2MDdmN2U2YzI=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T19:53:34Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T19:53:34Z"
+            },
+            "message": "Disable tqdm",
+            "tree": {
+                "sha": "6d22f3fab264c2d1a246dbed369c790ef64552c6",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/6d22f3fab264c2d1a246dbed369c790ef64552c6"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/bbbf849038e98eb097d7d1e89af9284607f7e6c2",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/bbbf849038e98eb097d7d1e89af9284607f7e6c2",
+        "html_url": "https://github.com/neuml/txtai/commit/bbbf849038e98eb097d7d1e89af9284607f7e6c2",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/bbbf849038e98eb097d7d1e89af9284607f7e6c2/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "319bda5c5cb5788c2de00ba553f1faea96873377",
+                "url": "https://api.github.com/repos/neuml/txtai/commits/319bda5c5cb5788c2de00ba553f1faea96873377",
+                "html_url": "https://github.com/neuml/txtai/commit/319bda5c5cb5788c2de00ba553f1faea96873377"
+            }
+        ]
+    },
+    {
+        "sha": "319bda5c5cb5788c2de00ba553f1faea96873377",
+        "node_id": "MDY6Q29tbWl0Mjg2MzAxNDQ3OjMxOWJkYTVjNWNiNTc4OGMyZGUwMGJhNTUzZjFmYWVhOTY4NzMzNzc=",
+        "commit": {
+            "author": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T19:13:59Z"
+            },
+            "committer": {
+                "name": "davidmezzetti",
+                "email": "561939+davidmezzetti@users.noreply.github.com",
+                "date": "2020-08-09T19:13:59Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "7cb7a19558f68f69cc770d0a42c3cd407358e760",
+                "url": "https://api.github.com/repos/neuml/txtai/git/trees/7cb7a19558f68f69cc770d0a42c3cd407358e760"
+            },
+            "url": "https://api.github.com/repos/neuml/txtai/git/commits/319bda5c5cb5788c2de00ba553f1faea96873377",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/neuml/txtai/commits/319bda5c5cb5788c2de00ba553f1faea96873377",
+        "html_url": "https://github.com/neuml/txtai/commit/319bda5c5cb5788c2de00ba553f1faea96873377",
+        "comments_url": "https://api.github.com/repos/neuml/txtai/commits/319bda5c5cb5788c2de00ba553f1faea96873377/comments",
+        "author": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidmezzetti",
+            "id": 561939,
+            "node_id": "MDQ6VXNlcjU2MTkzOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/561939?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidmezzetti",
+            "html_url": "https://github.com/davidmezzetti",
+            "followers_url": "https://api.github.com/users/davidmezzetti/followers",
+            "following_url": "https://api.github.com/users/davidmezzetti/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidmezzetti/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidmezzetti/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidmezzetti/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidmezzetti/orgs",
+            "repos_url": "https://api.github.com/users/davidmezzetti/repos",
+            "events_url": "https://api.github.com/users/davidmezzetti/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidmezzetti/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    }
+]

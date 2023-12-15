@@ -4,25 +4,10 @@ import matplotlib.pyplot as plt
 import requests
 import seaborn as sns
 from datetime import datetime
-import pytz
+from pytz import utc
 
-repos = [
-    "langchain-ai/langchain",
-    "PaddlePaddle/PaddleNLP",
-    "nebuly-ai/nebuly",
-    "microsoft/torchscale",
-    "postgresml/postgresml",
-    "run-llama/llama_index",
-    "argilla-io/argilla",
-    "bigscience-workshop/petals",
-    "neuml/txtai",
-    "intel/intel-extension-for-transformers",
-    "uptrain-ai/uptrain",
-    "skypilot-org/skypilot",
-    "lancedb/lance",
-    "swirlai/swirl-search",
-    "BlinkDL/RWKV-LM",
-    ]
+
+
 
 def convert_star_date(str):
     core_date_str = " ".join(str.split()[:5])
@@ -68,8 +53,9 @@ class RepositoryAnalyticsElapsed:
 
         repos = [repo.split('/')[1] for repo in owner_repos]
         metric_filtered = metric[repos]
-        metric_melted = metric_filtered.reset_index().melt(id_vars=['time_since_first'], var_name='Repositório', value_name='Count')
+        self.metric_filtered = metric_filtered
 
+        metric_melted = metric_filtered.reset_index().melt(id_vars=['time_since_first'], var_name='Repositório', value_name='Count')
         sns.lineplot(data=metric_melted, x='time_since_first', y='Count', hue='Repositório')
 
         plt.title(title)
@@ -112,6 +98,7 @@ class RepositoryAnalyticsElapsed:
                 repo_stars['repo'] = repo
                 all_stars_data = pd.concat([all_stars_data, repo_stars])
 
+        self.all_stars_data = all_stars_data
 
         sns.lineplot(data=all_stars_data, x='time_since_first', y='stars', hue='owner_repo')
         plt.title('Estrelas acumuladas ao longo do tempo')
@@ -159,6 +146,7 @@ class RepositoryAnalytics:
         sns.set_theme(style="whitegrid")
         repos = [repo.split('/')[1] for repo in owner_repos]
         metric_filtered = metric[repos]
+        self.metric_filtered = metric_filtered
         metric_melted = metric_filtered.reset_index().melt(id_vars=[metric.index.name], var_name='Repositório', value_name='Count')
         sns.lineplot(data=metric_melted, x=metric.index.name, y='Count', hue='Repositório')
         plt.xlabel('Month/Year')
@@ -215,11 +203,23 @@ df_stars['date'] = df_stars['date'].apply(convert_star_date)
 contributors = get_contributors('langchain-ai', 'langchain')
 
 
-from datetime import datetime
-from pytz import utc
-
-
-end_date = datetime.strptime("2023-06-30", '%Y-%m-%d').replace(tzinfo=utc)
+repos = [
+    "langchain-ai/langchain",
+    "PaddlePaddle/PaddleNLP",
+    "nebuly-ai/nebuly",
+    "microsoft/torchscale",
+    "postgresml/postgresml",
+    "run-llama/llama_index",
+    "argilla-io/argilla",
+    "bigscience-workshop/petals",
+    "neuml/txtai",
+    "intel/intel-extension-for-transformers",
+    "uptrain-ai/uptrain",
+    "skypilot-org/skypilot",
+    "lancedb/lance",
+    "swirlai/swirl-search",
+    "BlinkDL/RWKV-LM",
+    ]
 
 analytics_elapsed = RepositoryAnalyticsElapsed(df_commits, df_pulls, df_issues, df_forks, df_stars)
 analytics = RepositoryAnalytics(df_commits, df_pulls, df_issues, df_forks,df_stars)
@@ -235,3 +235,7 @@ analytics.plot_stars_over_time(['langchain-ai/langchain', 'PaddlePaddle/PaddleNL
 
 
 analytics_elapsed.plot_stars_over_time_elapsed(['langchain-ai/langchain', 'PaddlePaddle/PaddleNLP'])
+
+
+analytics.metric_filtered
+analytics_elapsed.all_stars_data

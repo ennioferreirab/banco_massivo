@@ -1,6 +1,6 @@
-stargazers.json
+#stargazers.json
 sync_search_github.py
-*/*/*.json
+# */*/*.json
 .vscode
 *.pyc
-*/*.csv
+# */*.csv
