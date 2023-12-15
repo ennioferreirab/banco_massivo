@@ -4,7 +4,7 @@ import json
 import os
 import asyncio
 
-toke = ""
+token = os.environ.get("GITHUB_TOKEN")
 PER_PAGE = 100
 url_base = "https://api.github.com/repos"
 headers = {"Authorization": f"token {token}"}
@@ -15,11 +15,15 @@ async def make_request(url, params):
     async with httpx.AsyncClient(headers=headers) as client:
         return await client.get(url, params=params)
 
-async def get_data(url, category, repo_name, start_page=1, stop_page=2):
+async def get_data(url, category, repo_name, start_page=1, stop_page=2, params=None):
+
+    
     page = start_page
     while page <= stop_page:
+        if params: 
+            params = {**params, "per_page": PER_PAGE, "page": page}
         print(f'Processing {category}, Page: {page}')
-        response = await make_request(url, params={"page": page, "per_page": PER_PAGE})
+        response = await make_request(url, params=params)
 
         if response.status_code == 200:
             data = response.json()
@@ -82,17 +86,17 @@ async def main():
         # async for _ in get_data(f"{url_base}/{owner}/{repo_name}/forks", "forks", repo_name, last_page_forks + 1, 999):
         #     pass
 
-        # last_page_issues = read_last_page_info(repo_name, "issues")
-        # async for _ in get_data(f"{url_base}/{owner}/{repo_name}/issues", "issues", repo_name, last_page_issues + 1, 999):
-        #     pass
+        last_page_issues = read_last_page_info(repo_name, "issues")
+        async for _ in get_data(f"{url_base}/{owner}/{repo_name}/issues", "issues", repo_name, last_page_issues + 1, 999, params={"state": "all", "filter": "all"}):
+            pass
 
         # last_page_commits = read_last_page_info(repo_name, "commits")
         # async for _ in get_data(f"{url_base}/{owner}/{repo_name}/commits", "commits", repo_name, last_page_commits + 1, 999):
         #     pass
 
-        last_page_pulls = read_last_page_info(repo_name, "pulls")
-        async for _ in get_data(f"{url_base}/{owner}/{repo_name}/pulls", "pulls", repo_name, last_page_pulls + 1, 999):
-            pass
+        #last_page_pulls = read_last_page_info(repo_name, "pulls")
+        #async for _ in get_data(f"{url_base}/{owner}/{repo_name}/pulls", "pulls", repo_name, last_page_pulls + 1, 999,params={"state": "all"}):
+        #    pass
 
 asyncio.run(main())
 

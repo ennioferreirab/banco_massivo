@@ -5,10 +5,7 @@ from data_extractor_issue import DataExtractorIssue
 from data_extractor_pull import DataExtractorPull
 import requests
 
-def get_contributors(owner, repo):
-    url = f'https://api.github.com/repos/{owner}/{repo}/contributors'
-    response = requests.get(url)
-    return response.json()
+
 
 commit = DataExtractorCommit('data')
 items = []
@@ -18,7 +15,7 @@ for file in commit.l_files:
     items.extend(file_items)
 
 
-df = pd.DataFrame.from_records([item.model_dump() for item in items])
+df_commits = pd.DataFrame.from_records([item.model_dump() for item in items])
 
 
 
@@ -30,12 +27,7 @@ for file in fork.l_files:
     fork_items.extend(file_items)
 
 
-example_fork = fork_items[0]
-
-
-example_fork
-
-#%%
+df_forks = pd.DataFrame.from_records([item.model_dump() for item in fork_items])
 
 
 issue = DataExtractorIssue('data')
@@ -45,9 +37,7 @@ for file in issue.l_files:
     file_items = issue.get_item(file)
     issue_items.extend(file_items)
 
-issue_items
-# %%
-
+df_issues = pd.DataFrame.from_records([item.model_dump() for item in issue_items])
 
 pull = DataExtractorPull('data')
 pull_items = []
@@ -56,26 +46,4 @@ for file in pull.l_files:
     file_items = pull.get_item(file)
     pull_items.extend(file_items)
 
-
-
-
-get_contributors('pandas-dev', 'pandas')
-# %%
-
-from datetime import datetime
-import pytz
-
-
-def convert_star_date(str):
-    core_date_str = " ".join(str.split()[:5])
-    parsed_date = datetime.strptime(core_date_str, '%a %b %d %Y %H:%M:%S')
-    return parsed_date
-
-stars = pd.read_csv('data/star_history.csv', header=None, names=['owner_repo', 'date','stars'], parse_dates=True)
-stars['date'] = stars['date'].apply(convert_star_date)
-
-
-
-
-
-# %%
+df_pulls = pd.DataFrame.from_records([item.model_dump() for item in pull_items])
